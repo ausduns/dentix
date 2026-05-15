@@ -1440,6 +1440,42 @@ ul{list-style:none}
   display: block;
 }
 
+/* ── Service Hero (two-column) ── */
+.service-hero-wrap {
+  padding: 99px 12px 12px;
+}
+.service-hero-container {
+  max-width: 1700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.service-hero-image {
+  flex: 1;
+  min-height: 525px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.service-hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.service-hero-content {
+  width: 872px;
+  flex-shrink: 0;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+
 /* ── Service Detail Page ── */
 .service-info-grid {
   display: grid;
