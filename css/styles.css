@@ -1295,11 +1295,13 @@ ul{list-style:none}
   position: relative;
   border-radius: 16px;
   overflow: hidden;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 400 / 317;
   text-decoration: none;
   color: #FFFFFF;
   padding: 24px;
   box-shadow: 0 0 12px rgba(0,0,0,0.04);
+  background-size: cover;
+  background-position: center;
 }
 .service-img-bg {
   position: absolute;
@@ -1326,7 +1328,7 @@ ul{list-style:none}
   z-index: 2;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
 }
 .service-img-title {
   font-family: 'Manrope', sans-serif !important;
@@ -1336,7 +1338,7 @@ ul{list-style:none}
   line-height: 1.2 !important;
   color: #FFFFFF !important;
 }
-.service-img-hover {
+.service-img-desc {
   font-family: 'Manrope', sans-serif !important;
   font-size: 14px !important;
   font-weight: 500 !important;
@@ -1346,11 +1348,20 @@ ul{list-style:none}
   max-height: 0;
   opacity: 0;
   overflow: hidden;
-  transition: max-height 0.3s, opacity 0.3s;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
 }
-.service-img-card:hover .service-img-hover {
+.service-img-card:hover .service-img-desc {
   max-height: 100px;
   opacity: 1;
+}
+.service-img-link {
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0em !important;
+  line-height: 1.2 !important;
+  color: #FFFFFF !important;
+  margin-top: 4px;
 }
 @media (max-width: 1024px) {
   .services-grid-3col {
