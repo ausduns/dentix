@@ -1392,6 +1392,71 @@ ul{list-style:none}
   color: #FFFFFF !important;
   max-width: 60%;
 }
+/* ── Service Detail Page ── */
+.service-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px 32px;
+}
+.service-info-grid > div {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+.service-info-grid strong {
+  font-weight: 600;
+  font-size: 16px;
+}
+.benefit-item {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000000;
+  padding: 16px 0;
+  border-bottom: 1px solid #F3F4F6;
+}
+.benefit-item strong {
+  font-weight: 700;
+}
+.faq-list {
+  display: flex;
+  flex-direction: column;
+}
+.faq-item {
+  border-bottom: 1px solid #F3F4F6;
+}
+.faq-question {
+  width: 100%;
+  padding: 20px 0;
+  background: none;
+  border: none;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-icon {
+  font-size: 20px;
+  color: #838996;
+}
+.faq-answer {
+  display: none;
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4B5363;
+}
+.faq-item.active .faq-answer {
+  display: block;
+}
+.faq-item.active .faq-icon {
+  content: '−';
+}
+
 @media (max-width: 1024px) {
   .services-grid-3col {
     grid-template-columns: repeat(2, 1fr);
