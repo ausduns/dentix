@@ -1191,9 +1191,6 @@ ul{list-style:none}
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
 }
 .services-grid-3col {
   display: grid;
