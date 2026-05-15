@@ -1189,9 +1189,11 @@ ul{list-style:none}
 }
 .services-grid-2col {
   display: grid;
-  grid-template-columns: repeat(2, 530px);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
-  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
 }
 .services-grid-3col {
   display: grid;
@@ -1297,7 +1299,6 @@ ul{list-style:none}
   border-radius: 30px;
   overflow: hidden;
   width: 100%;
-  max-width: 530px;
   height: auto;
   min-height: 400px;
   text-decoration: none;
