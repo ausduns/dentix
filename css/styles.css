@@ -1197,6 +1197,66 @@ ul{list-style:none}
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
+.services-grid-2col-h {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+/* ── Horizontal Service Cards ── */
+.service-h-card {
+  display: flex;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0,0,0,0.04);
+  text-decoration: none;
+  background: #F9FAFB;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.service-h-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+}
+.service-h-img {
+  width: 200px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.service-h-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.service-h-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.05) 100%);
+}
+.service-h-content {
+  flex: 1;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+.service-h-title {
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  letter-spacing: -.04em !important;
+  line-height: 1.2 !important;
+  color: #000000 !important;
+}
+.service-h-desc {
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0em !important;
+  line-height: 1.5 !important;
+  color: #4B5363 !important;
+}
 .service-text-card {
   display: flex;
   flex-direction: column;
@@ -1296,14 +1356,28 @@ ul{list-style:none}
   .services-grid-3col {
     grid-template-columns: repeat(2, 1fr);
   }
+  .services-grid-2col-h {
+    grid-template-columns: 1fr;
+  }
+  .service-h-img {
+    width: 160px;
+  }
 }
 @media (max-width: 809px) {
   .services-grid-2col,
-  .services-grid-3col {
+  .services-grid-3col,
+  .services-grid-2col-h {
     grid-template-columns: 1fr;
   }
   .services-page-title {
     font-size: 36px !important;
+  }
+  .service-h-card {
+    flex-direction: column;
+  }
+  .service-h-img {
+    width: 100%;
+    height: 200px;
   }
 }
 
