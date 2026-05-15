@@ -1176,6 +1176,37 @@ ul{list-style:none}
   .story-heading {
     font-size: 32px !important;
   }
+  .service-hero-container {
+    flex-direction: column;
+  }
+  .service-hero-content {
+    flex: none;
+    width: 100%;
+    padding: 32px 20px;
+  }
+  .service-hero-image {
+    flex: none;
+    width: 100%;
+    min-height: 300px;
+  }
+  .service-info-grid {
+    gap: 24px 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .service-hero-container {
+    flex-direction: column;
+  }
+  .service-hero-content {
+    flex: none;
+    width: 100%;
+  }
+  .service-hero-image {
+    flex: none;
+    width: 100%;
+    min-height: 400px;
+  }
 }
 
 /* ── Services Page ── */
@@ -1450,24 +1481,28 @@ ul{list-style:none}
   display: flex;
   flex-direction: row;
   gap: 12px;
-  border-radius: 20px;
-  overflow: hidden;
 }
 .service-hero-image {
-  flex: 1;
-  min-height: 525px;
+  flex: 1 0 0;
+  min-width: 0;
   border-radius: 20px;
   overflow: hidden;
+  padding: 20px;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
 }
 .service-hero-image img {
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  inset: 20px;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
   object-fit: cover;
-  display: block;
+  border-radius: 16px;
 }
 .service-hero-content {
-  width: 872px;
-  flex-shrink: 0;
+  flex: 1 0 0;
+  min-width: 0;
   padding: 48px;
   display: flex;
   flex-direction: column;
@@ -1479,8 +1514,9 @@ ul{list-style:none}
 /* ── Service Detail Page ── */
 .service-info-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px 32px;
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  grid-template-rows: repeat(2, min-content);
+  gap: 48px 32px;
 }
 .service-info-grid > div {
   font-size: 16px;
