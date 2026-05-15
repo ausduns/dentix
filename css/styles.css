@@ -1391,14 +1391,6 @@ ul{list-style:none}
   letter-spacing: 0em !important;
   line-height: 1.4 !important;
   color: rgba(255,255,255,0.9) !important;
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transition: max-height 0.35s ease, opacity 0.3s ease;
-}
-.service-img-card:hover .service-img-desc {
-  max-height: 80px;
-  opacity: 1;
 }
 .service-img-link {
   font-family: 'Manrope', sans-serif !important;
