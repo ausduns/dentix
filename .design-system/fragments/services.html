@@ -1,0 +1,54 @@
+<!--
+  Fragment: How We Work — Interactive Accordion
+  Source: dentix.framer.website/our-clinic
+  Tokens:
+    Section heading: 48px/600/1.2/-0.04em
+    Collapsed title:  32px/600/1.2/-0.04em, hover #5b7a12
+    Expanded title:   40px/600/1.2/-0.05em
+    Step label:       14px/500/1.2, #838996
+    Body text:        16px/400/1.5, #000000
+    List items:       14px/500/1.2, 18px checkmark circles
+    Open button:      44px circle, #F9FAFB bg, borderless
+    Image panel:      400px max-width, 16px radius, auto height
+  JS: single-open state machine, resize-aware panel heights
+-->
+<div class="container">
+  <div class="section-card" style="padding:80px 48px;">
+    <div class="story-header">
+      <div class="label-badge"><span class="dot"></span> How We Work</div>
+      <h2 class="story-heading">What Sets Us Apart</h2>
+    </div>
+    <div class="story-accordion">
+      <!-- Item 01 -->
+      <div class="sa-item" data-status="open">
+        <button type="button" class="sa-trigger group">
+          <div class="sa-trigger-text">
+            <span class="sa-step">01 — GUARANTEED DIAGNOSTICS</span>
+            <h3 class="sa-title">Diagnosis Before Decisions</h3>
+          </div>
+          <div class="sa-icon">
+            <svg class="sa-icon-svg" style="transform:rotate(45deg);" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/>
+            </svg>
+          </div>
+        </button>
+        <div class="sa-panel" style="max-height:none;opacity:1;">
+          <div class="sa-panel-inner">
+            <div class="sa-image">
+              <img src="https://framerusercontent.com/images/xYQ5n7kNIwUVYTKdyfWhsxEsfY.png?width=1536&height=1024" alt="Diagnostics">
+            </div>
+            <div class="sa-content">
+              <p class="sa-body">No treatment starts without a full picture. Every patient goes through 3D CBCT scans, intraoral imaging, and a clinical evaluation by the relevant specialists before anything is recommended. You'll understand your options and the reasoning behind each one before you commit.</p>
+              <ul class="sa-list">
+                <li><span class="sa-check">✓</span>Full 3D cone beam imaging on every case</li>
+                <li><span class="sa-check">✓</span>Multi-specialist review before any plan is presented</li>
+                <li><span class="sa-check">✓</span>Digital smile previews so you see the result upfront</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Items 02-04 follow identical structure — see our-clinic.html for full content -->
+    </div>
+  </div>
+</div>
