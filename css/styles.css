@@ -1299,8 +1299,7 @@ ul{list-style:none}
   border-radius: 30px;
   overflow: hidden;
   width: 100%;
-  height: auto;
-  min-height: 400px;
+  height: 500px;
   text-decoration: none;
   color: #FFFFFF;
   padding: 32px;
@@ -1328,51 +1327,49 @@ ul{list-style:none}
 .service-img-card:hover .service-img-overlay {
   opacity: 0.9;
 }
-/* Top-right arrow badge — visible by default, hides on hover */
+/* Top-right button — 52px circle matching live exact spec */
 .service-arrow-badge {
   position: absolute;
-  top: 24px;
-  right: 24px;
+  top: 16px;
+  right: 16px;
   z-index: 3;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 1px solid rgba(255,255,255,0.3);
+  width: 52px;
+  height: 52px;
+  border-radius: 26px;
+  border: 1px solid rgba(255,255,255,0.8);
   display: flex;
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
   background: transparent;
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  transition: opacity 0.2s ease;
 }
 .service-img-card:hover .service-arrow-badge {
   opacity: 0;
-  transform: scale(0.8);
 }
-/* Top-right Learn More pill — hidden by default, shows on hover */
+/* Learn More pill — hidden, replaces circle on hover */
 .service-learn-btn {
   position: absolute;
-  top: 24px;
-  right: 24px;
+  top: 16px;
+  right: 16px;
   z-index: 4;
-  padding: 10px 20px;
-  border-radius: 100px;
+  height: 52px;
+  padding: 0 24px;
+  border-radius: 26px;
   background: #FFFFFF;
   color: #000000;
   font-family: 'Manrope', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 0em;
-  line-height: 1.0;
+  line-height: 52px;
   opacity: 0;
-  transform: translateY(-4px);
-  transition: opacity 0.25s ease, transform 0.25s ease;
+  transition: opacity 0.25s ease;
   pointer-events: none;
   white-space: nowrap;
 }
 .service-img-card:hover .service-learn-btn {
   opacity: 1;
-  transform: translateY(0);
 }
 .service-img-content {
   position: relative;
@@ -1391,11 +1388,11 @@ ul{list-style:none}
 }
 .service-img-desc {
   font-family: 'Manrope', sans-serif !important;
-  font-size: 14px !important;
-  font-weight: 500 !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
   letter-spacing: 0em !important;
-  line-height: 1.4 !important;
-  color: rgba(255,255,255,0.9) !important;
+  line-height: 1.5 !important;
+  color: #FFFFFF !important;
 }
 @media (max-width: 1024px) {
   .services-grid-3col {
