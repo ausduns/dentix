@@ -1,0 +1,290 @@
+{
+  "pageIntent": {
+    "type": "legal",
+    "confidence": 0.26,
+    "path": "/our-clinic",
+    "title": "About Our Clinic | Dentix",
+    "description": "A restorative dental practice built around complex cases. Meet the specialist team, see how we work, and learn why every case starts with a full diagnosis before any treatment begins.",
+    "signals": [
+      {
+        "kind": "dom",
+        "type": "blog-post",
+        "weight": 0.35,
+        "detail": "byline|min-read"
+      },
+      {
+        "kind": "dom",
+        "type": "legal",
+        "weight": 0.4
+      }
+    ],
+    "alternates": [
+      {
+        "type": "blog-post",
+        "score": 0.35
+      }
+    ],
+    "needsSmart": true
+  },
+  "sectionRoles": {
+    "sections": [
+      {
+        "index": 0,
+        "tag": "main",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "20 Years Of Dental Excellence",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 4722.375
+        },
+        "buttonCount": 2,
+        "cardCount": 6,
+        "slots": {
+          "heading": "20 Years Of Dental Excellence",
+          "subheadings": [
+            "Meet The Hands That Transform Smiles",
+            "What Sets Us Apart",
+            "Diagnosis Before Decisions",
+            "What Our Patients Say About Their Experience"
+          ],
+          "ctaCount": 2,
+          "lede": "Our Clinic"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 1,
+        "tag": "section",
+        "role": "content",
+        "subrole": null,
+        "confidence": 0.3,
+        "heading": "20 Years Of Dental Excellence",
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 800
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "heading": "20 Years Of Dental Excellence",
+          "lede": "Our Clinic"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 2,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 800,
+          "w": 1280,
+          "h": 632.015625
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "Our Mission"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 3,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "Meet The Hands That Transform Smiles",
+        "bounds": {
+          "x": 0,
+          "y": 1432.015625,
+          "w": 1280,
+          "h": 905.1875
+        },
+        "buttonCount": 2,
+        "cardCount": 6,
+        "slots": {
+          "heading": "Meet The Hands That Transform Smiles",
+          "ctaCount": 2,
+          "lede": "Our Team"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 4,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": null,
+        "bounds": {
+          "x": 60,
+          "y": 1708.40625,
+          "w": 1160,
+          "h": 536.796875
+        },
+        "buttonCount": 2,
+        "cardCount": 6,
+        "slots": {
+          "ctaCount": 2,
+          "lede": "Dr.Tracy Willow"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 5,
+        "tag": "section",
+        "role": "testimonials",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": "What Sets Us Apart",
+        "bounds": {
+          "x": 0,
+          "y": 2337.203125,
+          "w": 1280,
+          "h": 1186.1875
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "heading": "What Sets Us Apart",
+          "subheadings": [
+            "Diagnosis Before Decisions"
+          ],
+          "lede": "How We Work"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 6,
+        "tag": "section",
+        "role": "testimonial",
+        "subrole": null,
+        "confidence": 0.8,
+        "heading": "What Our Patients Say About Their Experience",
+        "bounds": {
+          "x": 0,
+          "y": 3523.390625,
+          "w": 1280,
+          "h": 1198.984375
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "heading": "What Our Patients Say About Their Experience",
+          "lede": "Testimonials"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 7,
+        "tag": "header",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.4,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1280,
+          "h": 87.203125
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "Home"
+        },
+        "needsSmart": true
+      },
+      {
+        "index": 8,
+        "tag": "nav",
+        "role": "nav",
+        "subrole": null,
+        "confidence": 0.9,
+        "heading": null,
+        "bounds": {
+          "x": 12,
+          "y": 12,
+          "w": 1256,
+          "h": 75.203125
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "Home"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 9,
+        "tag": "footer",
+        "role": "footer",
+        "subrole": null,
+        "confidence": 0.95,
+        "heading": null,
+        "bounds": {
+          "x": 0,
+          "y": 5057.765625,
+          "w": 1280,
+          "h": 472.796875
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "SERVICES"
+        },
+        "needsSmart": false
+      },
+      {
+        "index": 10,
+        "tag": "footer",
+        "role": "footer",
+        "subrole": null,
+        "confidence": 0.95,
+        "heading": null,
+        "bounds": {
+          "x": 12,
+          "y": 5057.765625,
+          "w": 1256,
+          "h": 434
+        },
+        "buttonCount": 0,
+        "cardCount": 0,
+        "slots": {
+          "lede": "SERVICES"
+        },
+        "needsSmart": false
+      }
+    ],
+    "counts": {
+      "testimonial": 5,
+      "content": 1,
+      "testimonials": 1,
+      "nav": 2,
+      "footer": 2
+    },
+    "readingOrder": [
+      "testimonial",
+      "content",
+      "nav",
+      "nav",
+      "testimonial",
+      "testimonial",
+      "testimonial",
+      "testimonials",
+      "testimonial",
+      "footer",
+      "footer"
+    ]
+  }
+}

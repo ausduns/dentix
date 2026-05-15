@@ -1,0 +1,42 @@
+{
+  "targets": [
+    {
+      "type": "blog",
+      "url": "https://dentix.framer.website/blog",
+      "anchor": "News"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://dentix.framer.website/blog",
+      "type": "blog",
+      "intent": {
+        "type": "blog",
+        "confidence": 1,
+        "path": "/blog",
+        "title": "Dental Insights & Articles | Dentix Blog",
+        "description": "",
+        "signals": [
+          {
+            "kind": "url",
+            "type": "blog",
+            "weight": 0.85
+          },
+          {
+            "kind": "title",
+            "type": "blog",
+            "weight": 0.3
+          }
+        ],
+        "alternates": [],
+        "needsSmart": false
+      },
+      "error": null
+    }
+  ],
+  "consistency": {
+    "pairwise": [],
+    "drift": {},
+    "shared": {}
+  }
+}

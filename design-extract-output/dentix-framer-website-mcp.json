@@ -1,0 +1,450 @@
+{
+  "colors": {
+    "all": [
+      {
+        "hex": "#000000",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 1
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 0
+        },
+        "count": 2604,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#0000ee",
+        "rgb": {
+          "r": 0,
+          "g": 0,
+          "b": 238,
+          "a": 1
+        },
+        "hsl": {
+          "h": 240,
+          "s": 100,
+          "l": 47
+        },
+        "count": 458,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#ffffff",
+        "rgb": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 0.8
+        },
+        "hsl": {
+          "h": 0,
+          "s": 0,
+          "l": 100
+        },
+        "count": 193,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#838996",
+        "rgb": {
+          "r": 131,
+          "g": 137,
+          "b": 150,
+          "a": 1
+        },
+        "hsl": {
+          "h": 221,
+          "s": 8,
+          "l": 55
+        },
+        "count": 35,
+        "contexts": [
+          "text",
+          "border",
+          "background"
+        ]
+      },
+      {
+        "hex": "#6b7280",
+        "rgb": {
+          "r": 107,
+          "g": 114,
+          "b": 128,
+          "a": 1
+        },
+        "hsl": {
+          "h": 220,
+          "s": 9,
+          "l": 46
+        },
+        "count": 26,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#4b5363",
+        "rgb": {
+          "r": 75,
+          "g": 83,
+          "b": 99,
+          "a": 1
+        },
+        "hsl": {
+          "h": 220,
+          "s": 14,
+          "l": 34
+        },
+        "count": 24,
+        "contexts": [
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#f9fafb",
+        "rgb": {
+          "r": 249,
+          "g": 250,
+          "b": 251,
+          "a": 1
+        },
+        "hsl": {
+          "h": 210,
+          "s": 20,
+          "l": 98
+        },
+        "count": 22,
+        "contexts": [
+          "background"
+        ]
+      },
+      {
+        "hex": "#5b7a12",
+        "rgb": {
+          "r": 91,
+          "g": 122,
+          "b": 18,
+          "a": 1
+        },
+        "hsl": {
+          "h": 78,
+          "s": 74,
+          "l": 27
+        },
+        "count": 21,
+        "contexts": [
+          "background",
+          "text",
+          "border"
+        ]
+      },
+      {
+        "hex": "#e5e7eb",
+        "rgb": {
+          "r": 229,
+          "g": 231,
+          "b": 235,
+          "a": 1
+        },
+        "hsl": {
+          "h": 220,
+          "s": 13,
+          "l": 91
+        },
+        "count": 3,
+        "contexts": [
+          "background"
+        ]
+      }
+    ]
+  },
+  "regions": [
+    {
+      "role": "testimonials",
+      "tag": "main",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 4722.375
+      },
+      "heading": "20 Years Of Dental Excellence",
+      "buttonCount": 2,
+      "cardCount": 6,
+      "className": "framer-17txmrj"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 800
+      },
+      "heading": "20 Years Of Dental Excellence",
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "framer-5itqwv"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 800,
+        "w": 1280,
+        "h": 632.015625
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "framer-1cdr9zz"
+    },
+    {
+      "role": "hero",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 1432.015625,
+        "w": 1280,
+        "h": 905.1875
+      },
+      "heading": "Meet The Hands That Transform Smiles",
+      "buttonCount": 2,
+      "cardCount": 6,
+      "className": "framer-1s5yfnf"
+    },
+    {
+      "role": "content",
+      "tag": "section",
+      "bounds": {
+        "x": 60,
+        "y": 1708.40625,
+        "w": 1160,
+        "h": 536.796875
+      },
+      "heading": null,
+      "buttonCount": 2,
+      "cardCount": 6,
+      "className": null
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 2337.203125,
+        "w": 1280,
+        "h": 1186.1875
+      },
+      "heading": "What Sets Us Apart",
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "framer-d3yqah"
+    },
+    {
+      "role": "testimonials",
+      "tag": "section",
+      "bounds": {
+        "x": 0,
+        "y": 3523.390625,
+        "w": 1280,
+        "h": 1198.984375
+      },
+      "heading": "What Our Patients Say About Their Experience",
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "framer-9nl8jg"
+    },
+    {
+      "role": "nav",
+      "tag": "header",
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 87.203125
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "framer-98w9h2"
+    },
+    {
+      "role": "nav",
+      "tag": "nav",
+      "bounds": {
+        "x": 12,
+        "y": 12,
+        "w": 1256,
+        "h": 75.203125
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "framer-2esID framer-1ifhuwf framer-v-1ifhuwf"
+    },
+    {
+      "role": "footer",
+      "tag": "footer",
+      "bounds": {
+        "x": 0,
+        "y": 5057.765625,
+        "w": 1280,
+        "h": 472.796875
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "framer-14il4f1"
+    },
+    {
+      "role": "footer",
+      "tag": "footer",
+      "bounds": {
+        "x": 12,
+        "y": 5057.765625,
+        "w": 1256,
+        "h": 434
+      },
+      "heading": null,
+      "buttonCount": 0,
+      "cardCount": 0,
+      "className": "framer-3kwlx5"
+    }
+  ],
+  "componentClusters": [
+    {
+      "kind": "button",
+      "structuralHash": "button>img",
+      "instanceCount": 2,
+      "variants": [
+        {
+          "css": {
+            "background": "rgba(0, 0, 0, 0.2)",
+            "color": "rgb(0, 0, 0)",
+            "padding": "0px 0px 0px 0px",
+            "borderRadius": "40px",
+            "border": "0px none rgb(0, 0, 0)",
+            "fontSize": "12px",
+            "fontWeight": "400"
+          },
+          "instanceCount": 2
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "remediation": []
+  },
+  "cssHealth": {
+    "sheets": [
+      {
+        "url": "https://dentix.framer.website/our-clinic",
+        "totalBytes": 597,
+        "usedBytes": 0,
+        "unusedBytes": 597,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dentix.framer.website/our-clinic",
+        "totalBytes": 597,
+        "usedBytes": 0,
+        "unusedBytes": 597,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dentix.framer.website/our-clinic",
+        "totalBytes": 97,
+        "usedBytes": 97,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      },
+      {
+        "url": "https://dentix.framer.website/our-clinic",
+        "totalBytes": 629,
+        "usedBytes": 0,
+        "unusedBytes": 629,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dentix.framer.website/our-clinic",
+        "totalBytes": 597,
+        "usedBytes": 169,
+        "unusedBytes": 428,
+        "unusedPercent": 72
+      },
+      {
+        "url": "https://dentix.framer.website/our-clinic",
+        "totalBytes": 10857,
+        "usedBytes": 0,
+        "unusedBytes": 10857,
+        "unusedPercent": 100
+      },
+      {
+        "url": "https://dentix.framer.website/our-clinic",
+        "totalBytes": 153400,
+        "usedBytes": 59914,
+        "unusedBytes": 93486,
+        "unusedPercent": 61
+      },
+      {
+        "url": "https://dentix.framer.website/our-clinic",
+        "totalBytes": 96,
+        "usedBytes": 96,
+        "unusedBytes": 0,
+        "unusedPercent": 0
+      }
+    ],
+    "totalBytes": 166870,
+    "usedBytes": 60276,
+    "unusedBytes": 106594,
+    "unusedPercent": 64,
+    "importantCount": 23,
+    "duplicates": 2637,
+    "vendorPrefixes": {
+      "webkit": 77,
+      "moz": 2,
+      "ms": 0,
+      "o": 0
+    },
+    "keyframes": [],
+    "specificity": {
+      "max": [
+        1,
+        5,
+        4
+      ],
+      "average": [
+        0,
+        2.1,
+        0.56
+      ],
+      "count": 895
+    },
+    "issues": [
+      "23 !important rules",
+      "2637 duplicate declarations",
+      "64% unused CSS"
+    ]
+  }
+}

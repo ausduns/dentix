@@ -1,0 +1,24 @@
+{
+  "tone": "friendly",
+  "pronoun": "you-only",
+  "headingStyle": "Title Case",
+  "headingLengthClass": "balanced",
+  "ctaVerbs": [],
+  "buttonPatterns": [],
+  "sampleHeadings": [
+    "20 Years Of Dental Excellence",
+    "Meet The Hands That Transform Smiles",
+    "What Sets Us Apart",
+    "Diagnosis Before Decisions",
+    "What Our Patients Say About Their Experience",
+    "20 Years Of Dental Excellence",
+    "Meet The Hands That Transform Smiles",
+    "What Sets Us Apart",
+    "Diagnosis Before Decisions",
+    "What Our Patients Say About Their Experience"
+  ],
+  "stats": {
+    "buttons": 0,
+    "headings": 10
+  }
+}

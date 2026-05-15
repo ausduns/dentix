@@ -1,0 +1,69 @@
+{
+  "materialLanguage": {
+    "label": "flat",
+    "confidence": 0,
+    "signals": [],
+    "metrics": {
+      "saturation": 0.269,
+      "shadowProfile": "soft",
+      "avgShadowBlur": 0,
+      "maxShadowBlur": 0,
+      "insetShadows": 0,
+      "avgRadius": 37.2,
+      "maxRadius": 100,
+      "hasPill": false,
+      "hasBackdropBlur": false,
+      "gradientCount": 1
+    },
+    "alternates": []
+  },
+  "imageryStyle": {
+    "label": "photography",
+    "confidence": 0.196,
+    "counts": {
+      "total": 28,
+      "svg": 2,
+      "icon": 0,
+      "hero": 0,
+      "screenshot": 0,
+      "photoLike": 11
+    },
+    "dominantAspect": "portrait",
+    "radiusProfile": "rounded",
+    "alternates": [],
+    "signals": [
+      "raster photo-ext",
+      "raster photo-ext",
+      "raster photo-ext",
+      "raster photo-ext",
+      "raster photo-ext",
+      "raster photo-ext",
+      "raster photo-ext",
+      "raster photo-ext",
+      "raster photo-ext",
+      "raster photo-ext"
+    ]
+  },
+  "backgroundPatterns": {
+    "labels": [
+      "svg-pattern"
+    ],
+    "counts": {
+      "noise": 0,
+      "dotGrid": 0,
+      "lineGrid": 0,
+      "meshCount": 0,
+      "svgPattern": 1
+    },
+    "gradientTotals": {
+      "radial": 0,
+      "linear": 1
+    },
+    "samples": [
+      {
+        "tag": "svg-pattern",
+        "value": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 58 21%22><g transform=%22translate(0 0.44)%22><path d=%22M 0 19.618 L "
+      }
+    ]
+  }
+}

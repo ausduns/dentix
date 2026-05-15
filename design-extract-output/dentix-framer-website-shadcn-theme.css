@@ -1,0 +1,17 @@
+/* shadcn/ui Theme — extracted from https://dentix.framer.website/our-clinic */
+/* Paste into your globals.css */
+
+@layer base {
+  :root {
+    --background: 220 14% 96%;
+    --foreground: 0 0% 0%;
+    --primary: 78 74% 27%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 240 100% 47%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 220 13% 91%;
+    --muted-foreground: 0 0% 0%;
+    --border: 220 14% 34%;
+    --radius: 10px;
+  }
+}
