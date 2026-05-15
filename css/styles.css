@@ -1295,7 +1295,7 @@ ul{list-style:none}
   position: relative;
   border-radius: 16px;
   overflow: hidden;
-  aspect-ratio: 400 / 317;
+  aspect-ratio: 1 / 1;
   text-decoration: none;
   color: #FFFFFF;
   padding: 24px;
