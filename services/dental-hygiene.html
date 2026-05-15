@@ -59,69 +59,93 @@
 </section>
 </div>
 
-<!-- SERVICE INFO -->
+<!-- SERVICE INFO WITH TABS -->
 <div class="container">
   <div class="section-card" style="padding:80px 48px;">
-
-    <!-- Benefits -->
-    <section style="margin-bottom:80px;">
-      <p style="font-size:14px;font-weight:600;color:#000;margin-bottom:8px;">Benefits</p>
-      <h2 class="section-heading" style="margin-bottom:16px;">The foundation of lifelong oral health</h2>
-      <p style="font-size:18px;line-height:1.5;color:#000;margin-bottom:16px;">A bright smile starts with healthy gums. Routine hygiene appointments do more than polish away coffee stains—they remove harmful bacteria that cause gum disease, and they catch early signs of trouble before they become emergencies.</p>
-
-      <h3 style="font-size:20px;font-weight:600;color:#000;margin:32px 0 8px;">Why professional hygiene matters</h3>
-      <ul style="font-size:18px;line-height:1.5;color:#000;padding-left:20px;display:flex;flex-direction:column;gap:12px;">
-        <li><strong>Ultrasonic and hand scaling</strong> reach below-gum deposits that toothbrushes and floss can't touch, stopping bacteria before it hardens into calculus.</li>
-        <li><strong>Air-polishing and high-gloss cups</strong> lift surface stains from coffee, tea, and wine, revealing your natural shade without peroxide.</li>
-        <li><strong>Personalized home-care coaching</strong>—from floss-threaders around bridges to water-flosser settings—empowers you between visits.</li>
-        <li><strong>Early detection of cavities, cracked fillings, or oral lesions</strong> allows for quick, minimally invasive fixes instead of root canals later.</li>
-        <li><strong>Fluoride varnish or sealants</strong> remineralize enamel and protect deep grooves, drastically reducing future decay risk.</li>
-        <li><strong>Oral–systemic screening</strong> links gum health to heart disease, diabetes, and pregnancy outcomes; we track changes visit to visit.</li>
-      </ul>
-      <p style="font-size:18px;line-height:1.5;color:#000;margin-top:24px;">Regular preventive care is the simplest, most cost-effective way to keep your smile—and overall health—at its best.</p>
-    </section>
-
-    <!-- Ideal Candidate -->
-    <section style="margin-bottom:80px;">
-      <p class="section-label">Ideal Candidate</p>
-      <h2 class="section-heading" style="margin-bottom:16px;">Is it time for a cleaning?</h2>
-      <p style="font-size:18px;line-height:1.5;color:#000;margin-bottom:16px;">Routine cleanings every six months keep plaque and tartar in check for virtually everyone—but certain groups benefit even more from regular hygiene visits:</p>
-      <ul style="font-size:18px;line-height:1.5;color:#000;padding-left:20px;display:flex;flex-direction:column;gap:8px;">
-        <li>Adults and children following the ADA's twice-yearly recommendation</li>
-        <li>Patients with a history of periodontal disease or frequent decay</li>
-        <li>Smokers and those with diabetes (higher risk of gum attachment loss)</li>
-        <li>Pregnant women (hormonal shifts can cause pregnancy gingivitis)</li>
-        <li>Seniors managing bridges, implants, or dry-mouth from medications</li>
-        <li>Anyone with stained or dull-looking enamel from coffee, tea, or wine</li>
-      </ul>
-      <p style="font-size:18px;line-height:1.5;color:#000;margin-top:16px;">A quick, comfortable hygiene visit now can save you discomfort—and money—later.</p>
-    </section>
-
-    <!-- Process Overview -->
-    <section style="margin-bottom:80px;">
-      <p class="section-label">Process Overview</p>
-      <h2 class="section-heading" style="margin-bottom:16px;">Process overview</h2>
-      <ol style="font-size:18px;line-height:1.5;color:#000;padding-left:24px;display:flex;flex-direction:column;gap:16px;">
-        <li><strong>Periodontal assessment</strong>—We measure pocket depths, check gum attachment levels, and record any inflammation or bleeding points to create a detailed baseline.</li>
-        <li><strong>Ultrasonic scaling</strong>—A gentle ultrasonic scaler breaks up heavy tartar both above and below the gumline, followed by fine hand instruments that contour around crowns, bridges, and implant fixtures.</li>
-        <li><strong>Air-polishing</strong>—A pressurized stream of fine powder and water lifts surface stains from tea, coffee, or wine. We complete the polish with a high-gloss rubber cup buff.</li>
-        <li><strong>Fluoride & sealants (optional)</strong>—High-strength fluoride varnish is painted onto enamel to remineralize and strengthen weak spots. Deep grooves on molars can be sealed in minutes.</li>
-        <li><strong>Home-care plan & recall</strong>—We review brushing technique, demonstrate any specialty tools you may need, and set a recall interval (3, 4, or 6 months) based on your clinical findings.</li>
-      </ol>
-    </section>
-
-    <!-- Pricing -->
-    <section>
-      <p class="section-label">Pricing</p>
-      <h2 class="section-heading" style="margin-bottom:24px;">Dental hygiene pricing</h2>
-      <div style="display:flex;flex-direction:column;gap:0;max-width:500px;">
-        <div style="display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid #F3F4F6;font-size:18px;color:#000;"><span>Routine prophylaxis (adult)</span><strong>$120</strong></div>
-        <div style="display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid #F3F4F6;font-size:18px;color:#000;"><span>Periodontal maintenance</span><strong>$150</strong></div>
-        <div style="display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid #F3F4F6;font-size:18px;color:#000;"><span>Child cleaning + fluoride</span><strong>$90</strong></div>
-        <div style="display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid #F3F4F6;font-size:18px;color:#000;"><span>Sealant (per tooth)</span><strong>$45</strong></div>
-        <div style="display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid #F3F4F6;font-size:18px;color:#000;"><span>Desensitizing treatment</span><strong>$40</strong></div>
+    <div class="service-tabs-layout">
+      <!-- Left sidebar tabs -->
+      <div class="service-tabs-sidebar">
+        <button class="service-tab active" data-tab="benefits"><span>Benefits</span></button>
+        <button class="service-tab" data-tab="candidate"><span>Ideal Candidate</span></button>
+        <button class="service-tab" data-tab="process"><span>Process Overview</span></button>
+        <button class="service-tab" data-tab="pricing"><span>Pricing</span></button>
       </div>
-    </section>
+      <!-- Right content area -->
+      <div class="service-tabs-content">
+        <!-- Benefits -->
+        <div class="service-tab-panel active" id="tab-benefits">
+          <h2 style="font-size:48px;font-weight:600;line-height:1.2;letter-spacing:-0.04em;color:#000;margin-bottom:16px;">The foundation of lifelong oral health</h2>
+          <p style="font-size:18px;line-height:1.5;color:#000;margin-bottom:24px;">A bright smile starts with healthy gums. Routine hygiene appointments do more than polish away coffee stains—they remove the bacterial biofilm that fuels gum disease and catch emerging problems early, when they're easiest to fix.</p>
+          <h3 style="font-size:18px;font-weight:700;color:#000;margin-bottom:16px;">Why professional hygiene matters</h3>
+          <div style="display:flex;flex-direction:column;gap:12px;font-size:18px;line-height:1.5;color:#000;">
+            <p><strong>Ultrasonic and hand scaling</strong> reach below-gum deposits that toothbrushes and floss can't touch, stopping early periodontal pockets in their tracks.</p>
+            <p><strong>Air-polishing and high-gloss cups</strong> lift surface stains from coffee, tea, and wine, revealing your natural enamel brilliance.</p>
+            <p><strong>Personalized home-care coaching</strong>—from floss-threaders around bridges to water-flosser settings—empowers you to maintain results between visits.</p>
+            <p><strong>Early detection of cavities, cracked fillings, or oral lesions</strong> allows for quick, minimally invasive treatment and peace of mind.</p>
+            <p><strong>Fluoride varnish or sealants</strong> remineralize enamel and protect deep grooves, drastically reducing future decay risk.</p>
+            <p><strong>Oral–systemic screening</strong> links gum health to heart disease, diabetes, and pregnancy outcomes; we track key indicators and coordinate with your physician when needed.</p>
+            <p><strong>Fresh-breath protocols</strong> neutralize odor-causing bacteria, giving you lasting confidence in close conversations.</p>
+          </div>
+          <p style="font-size:18px;line-height:1.5;color:#000;margin-top:24px;">Regular preventive care is the simplest, most cost-effective way to keep your smile—and overall health—at its best.</p>
+        </div>
+
+        <!-- Ideal Candidate -->
+        <div class="service-tab-panel" id="tab-candidate">
+          <h2 style="font-size:48px;font-weight:600;line-height:1.2;letter-spacing:-0.04em;color:#000;margin-bottom:16px;">Is it time for a cleaning?</h2>
+          <p style="font-size:18px;line-height:1.5;color:#000;margin-bottom:20px;">Routine cleanings every six months keep plaque and tartar in check for virtually everyone—but certain groups benefit even more from staying on a strict hygiene schedule.</p>
+          <p style="font-size:18px;font-weight:700;color:#000;margin-bottom:12px;">You're an excellent candidate if you:</p>
+          <ul style="font-size:18px;line-height:1.5;color:#000;padding-left:20px;display:flex;flex-direction:column;gap:8px;margin-bottom:20px;">
+            <li><strong>Smoke or vape</strong> – nicotine reduces blood flow to the gums, masking early inflammation.</li>
+            <li><strong>Wear braces, aligners, or fixed retainers</strong> – brackets and wires trap food debris that's hard to remove at home.</li>
+            <li><strong>Have a history of gum issues</strong> – previous gingivitis or periodontitis makes you more susceptible to future flare-ups.</li>
+            <li><strong>Manage diabetes or heart disease</strong> – systemic conditions can worsen oral health (and vice versa).</li>
+            <li><strong>Experience dry mouth</strong> from medications or menopause—reduced saliva raises cavity risk.</li>
+            <li><strong>Notice persistent bad breath</strong> or a fuzzy film on your teeth even after brushing.</li>
+            <li><strong>Skipped your last checkup</strong> or can't recall your last professional polish—if it's been over six months, you're due.</li>
+          </ul>
+          <p style="font-size:18px;line-height:1.5;color:#000;">A quick, comfortable hygiene visit now can save you discomfort—and money—later.</p>
+        </div>
+
+        <!-- Process Overview -->
+        <div class="service-tab-panel" id="tab-process">
+          <h2 style="font-size:48px;font-weight:600;line-height:1.2;letter-spacing:-0.04em;color:#000;margin-bottom:24px;">Process overview</h2>
+          <div style="display:flex;flex-direction:column;gap:32px;">
+            <div>
+              <h3 style="font-size:18px;font-weight:700;color:#000;margin-bottom:8px;">Comprehensive periodontal charting &amp; screening</h3>
+              <p style="font-size:18px;line-height:1.5;color:#000;">We measure pocket depths, check gum attachment levels, and record any inflammation or bleeding points to create a detailed baseline of your gum health.</p>
+            </div>
+            <div>
+              <h3 style="font-size:18px;font-weight:700;color:#000;margin-bottom:8px;">Ultrasonic + precision hand scaling</h3>
+              <p style="font-size:18px;line-height:1.5;color:#000;">A gentle ultrasonic scaler breaks up heavy tartar both above and below the gumline, followed by fine hand instruments that remove remaining deposits from every tooth surface—including around crowns, bridges, and implant fixtures.</p>
+            </div>
+            <div>
+              <h3 style="font-size:18px;font-weight:700;color:#000;margin-bottom:8px;">Air-polish, flossing &amp; stain removal</h3>
+              <p style="font-size:18px;line-height:1.5;color:#000;">A pressurized stream of fine powder and water lifts surface stains from tea, coffee, or wine. We complete the polish with flossing to sweep away residual debris between teeth.</p>
+            </div>
+            <div>
+              <h3 style="font-size:18px;font-weight:700;color:#000;margin-bottom:8px;">Targeted fluoride varnish or sealants (optional)</h3>
+              <p style="font-size:18px;line-height:1.5;color:#000;">High-strength fluoride varnish is painted onto enamel to remineralize and strengthen weak spots. Deep grooves on molars can be sealed the same visit to lock out decay-causing bacteria.</p>
+            </div>
+            <div>
+              <h3 style="font-size:18px;font-weight:700;color:#000;margin-bottom:8px;">Personalized oral-health coaching &amp; recall scheduling</h3>
+              <p style="font-size:18px;line-height:1.5;color:#000;">We review brushing technique, demonstrate any specialty tools you may need, and set a recall interval (3, 4, or 6 months) tailored to your risk profile.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pricing -->
+        <div class="service-tab-panel" id="tab-pricing">
+          <h2 style="font-size:40px;font-weight:600;line-height:1.2;letter-spacing:-0.05em;color:#000;margin-bottom:24px;">Dental hygiene pricing</h2>
+          <div style="display:flex;flex-direction:column;max-width:500px;">
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid #F3F4F6;"><span style="font-size:18px;color:#000;">Routine prophylaxis (adult)</span><strong style="font-size:16px;color:#000;">$120</strong></div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid #F3F4F6;"><span style="font-size:18px;color:#000;">Periodontal maintenance</span><strong style="font-size:16px;color:#000;">$150</strong></div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid #F3F4F6;"><span style="font-size:18px;color:#000;">Child cleaning + fluoride</span><strong style="font-size:16px;color:#000;">$90</strong></div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid #F3F4F6;"><span style="font-size:18px;color:#000;">Sealant (per tooth)</span><strong style="font-size:16px;color:#000;">$45</strong></div>
+            <div style="display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid #F3F4F6;"><span style="font-size:18px;color:#000;">Desensitizing treatment</span><strong style="font-size:16px;color:#000;">$40</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -147,7 +171,7 @@
   <div class="section-card" style="padding:80px 48px;">
     <div style="text-align:center;margin-bottom:40px;">
       <div class="label-badge" style="margin-bottom:8px;"><span class="dot"></span> Testimonials</div>
-      <h2 class="section-heading">What Our Patients Say</h2>
+      <h2 class="section-heading">What Our Patients Say About Their Experience</h2>
     </div>
     <div class="testimonial-grid-3col">
       <div class="testimonial-col">
@@ -156,8 +180,8 @@
         <div class="review-card"><div class="review-stars">★★★★★</div><blockquote>"I put this off for six years. Wish I hadn't — the process was easier than I expected."</blockquote><div class="review-footer"><img class="review-avatar" src="https://framerusercontent.com/images/iYjcCRZeo67UEB1OUxgbZyT2ig.png?width=160&height=160" alt="David"><div class="review-meta"><div class="review-author">David</div><div class="treatment">Dental implants</div></div></div></div>
       </div>
       <div class="testimonial-col">
-        <div class="review-card"><div class="review-stars">★★★★★</div><blockquote>"I came in expecting to be sold on the most expensive option. Instead, they walked me through three different approaches at different price points and let me decide."</blockquote><div class="review-footer"><img class="review-avatar" src="https://framerusercontent.com/images/kLPW7o56Zt8gw0D96XHDliaFNM.png?width=160&height=160" alt="Margaret"><div class="review-meta"><div class="review-author">Margaret</div><div class="treatment">Dental implants</div></div></div></div>
-        <div class="review-card"><div class="review-stars">★★★★★</div><blockquote>"I was in and out for my whitening in under two hours. Teeth look incredible."</blockquote><div class="review-footer"><img class="review-avatar" src="https://framerusercontent.com/images/gfKDEeDTH0gNXnMcLZHSxVUqFKI.png?width=160&height=160" alt="James"><div class="review-meta"><div class="review-author">James</div><div class="treatment">Teeth whitening</div></div></div></div>
+        <div class="review-card"><div class="review-stars">★★★★★</div><blockquote>"I came in expecting to be sold on the most expensive option. Instead, they walked me through three different approaches and helped me pick the one that fit my budget and goals."</blockquote><div class="review-footer"><img class="review-avatar" src="https://framerusercontent.com/images/kLPW7o56Zt8gw0D96XHDliaFNM.png?width=160&height=160" alt="Margaret"><div class="review-meta"><div class="review-author">Margaret</div><div class="treatment">Dental implants</div></div></div></div>
+        <div class="review-card"><div class="review-stars">★★★★★</div><blockquote>"I was in and out in under two hours. Teeth look incredible."</blockquote><div class="review-footer"><img class="review-avatar" src="https://framerusercontent.com/images/gfKDEeDTH0gNXnMcLZHSxVUqFKI.png?width=160&height=160" alt="James"><div class="review-meta"><div class="review-author">James</div><div class="treatment">Teeth whitening</div></div></div></div>
         <div class="review-card"><div class="review-stars">★★★★★</div><blockquote>"They didn't push me toward the most expensive option. They explained everything and let me choose."</blockquote><div class="review-footer"><img class="review-avatar" src="https://framerusercontent.com/images/4HytcC5SH5wppXFXnFHsYwunVHM.png?width=160&height=160" alt="Laura"><div class="review-meta"><div class="review-author">Laura</div><div class="treatment">Dental treatment</div></div></div></div>
       </div>
       <div class="testimonial-col">

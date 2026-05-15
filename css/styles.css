@@ -1392,6 +1392,54 @@ ul{list-style:none}
   color: #FFFFFF !important;
   max-width: 60%;
 }
+/* ── Service Detail Tabs ── */
+.service-tabs-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+.service-tabs-sidebar {
+  width: 158px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.service-tab {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #F3F4F6;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6B7280;
+  text-align: left;
+  cursor: pointer;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  transition: color 0.2s;
+}
+.service-tab:hover {
+  color: #000000;
+}
+.service-tab.active {
+  color: #000000;
+  font-weight: 600;
+}
+.service-tabs-content {
+  flex: 1;
+  min-width: 0;
+}
+.service-tab-panel {
+  display: none;
+}
+.service-tab-panel.active {
+  display: block;
+}
+
 /* ── Service Detail Page ── */
 .service-info-grid {
   display: grid;

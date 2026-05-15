@@ -73,6 +73,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Service detail tabs
+  document.querySelectorAll('.service-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = tab.getAttribute('data-tab');
+      document.querySelectorAll('.service-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.service-tab-panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('tab-' + target)?.classList.add('active');
+    });
+  });
+
   // Image Comparison Sliders
   const sliders = document.querySelectorAll('.slider-range');
   sliders.forEach(slider => {
