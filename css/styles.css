@@ -1176,19 +1176,6 @@ ul{list-style:none}
   .story-heading {
     font-size: 32px !important;
   }
-  .service-hero-container {
-    flex-direction: column;
-  }
-  .service-hero-content {
-    flex: none;
-    width: 100%;
-    padding: 32px 20px;
-  }
-  .service-hero-image {
-    flex: none;
-    width: 100%;
-    min-height: 300px;
-  }
   .service-info-grid {
     gap: 24px 16px;
   }
@@ -1481,62 +1468,90 @@ ul{list-style:none}
   display: block;
 }
 
-/* ── Service Hero (two-column) ── */
-.service-hero-wrap {
-  padding: 99px 12px 12px;
-}
-.service-hero-container {
-  max-width: 1700px;
+/* ── Dental Hygiene Hero ── */
+.dh-hero-wrap {
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 12px;
+  padding: 48px 24px;
 }
-.service-hero-image {
-  flex: 1 0 0;
-  min-width: 0;
-  align-self: stretch;
-  border-radius: 20px;
-  overflow: visible;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  box-shadow: 0 0 12px rgba(0,0,0,0.04);
-}
-.service-hero-image img {
-  position: absolute;
-  inset: 20px;
-  width: calc(100% - 40px);
-  height: calc(100% - 40px);
-  object-fit: cover;
-  border-radius: 16px;
-}
-.service-hero-play {
-  position: relative;
-  z-index: 2;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  background: #5b7a12;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.service-hero-content {
-  flex: 1 0 0;
-  min-width: 0;
-  padding: 48px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 48px;
+.dh-hero-card {
   background: #FFFFFF;
   border-radius: 20px;
+  padding: 32px;
   box-shadow: 0 0 12px rgba(0,0,0,0.04);
-  overflow: hidden;
+}
+.dh-hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.dh-hero-image img {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 20px;
+  object-fit: cover;
+  display: block;
+}
+.dh-hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.dh-hero-title {
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 56px !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.05em !important;
+  line-height: 1.2 !important;
+  color: #000000 !important;
+}
+.dh-hero-desc {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #6B7280;
+}
+.dh-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.dh-stat {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.dh-stat-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #F0F5E4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.dh-stat strong {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.2;
+}
+.dh-stat {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+@media (max-width: 1024px) {
+  .dh-hero-grid {
+    grid-template-columns: 1fr;
+  }
+  .dh-hero-wrap {
+    padding: 12px;
+  }
 }
 
 /* ── Service Detail Page ── */
