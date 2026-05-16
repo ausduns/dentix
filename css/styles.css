@@ -1426,7 +1426,7 @@ ul{list-style:none}
 /* ── Service Detail Tabs ── */
 .service-tabs-layout {
   display: flex;
-  gap: 40px;
+  gap: 0;
   align-items: flex-start;
 }
 .service-tabs-sidebar {
@@ -1435,14 +1435,17 @@ ul{list-style:none}
   display: flex;
   flex-direction: column;
   gap: 0;
+  position: sticky;
+  top: 80px;
 }
 .service-tab {
-  display: block;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 145px;
   padding: 12px 0;
   background: none;
   border: none;
-  border-bottom: 1px solid #F3F4F6;
   font-family: 'Manrope', sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -1451,21 +1454,28 @@ ul{list-style:none}
   cursor: pointer;
   letter-spacing: 0em;
   line-height: 1.2;
-  transition: color 0.2s;
+  text-decoration: none;
 }
 .service-tab:hover {
   color: #000000;
 }
 .service-tab.active {
   color: #000000;
-  font-weight: 600;
+  font-weight: 500;
+  padding-left: 4px;
 }
 .service-tabs-content {
-  flex: 1;
+  flex: 1 0 0;
   min-width: 0;
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
 }
 .service-tab-panel {
   display: none;
+  width: 100%;
 }
 .service-tab-panel.active {
   display: block;
