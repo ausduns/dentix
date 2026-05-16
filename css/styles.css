@@ -1568,41 +1568,56 @@ ul{list-style:none}
 .faq-list {
   display: flex;
   flex-direction: column;
+  gap: 0;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 .faq-item {
   border-bottom: 1px solid #F3F4F6;
 }
 .faq-question {
   width: 100%;
-  padding: 20px 0;
+  padding: 24px;
   background: none;
   border: none;
   font-family: 'Manrope', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   color: #000000;
   text-align: left;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
 }
 .faq-icon {
-  font-size: 20px;
-  color: #838996;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #6B7280;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+.faq-question:hover .faq-icon {
+  background: #F3F4F6;
 }
 .faq-answer {
   display: none;
-  padding-bottom: 20px;
+  padding: 0 24px 24px;
   font-size: 16px;
   line-height: 1.5;
   color: #4B5363;
 }
 .faq-item.active .faq-answer {
   display: block;
-}
-.faq-item.active .faq-icon {
-  content: '−';
 }
 
 @media (max-width: 1024px) {
