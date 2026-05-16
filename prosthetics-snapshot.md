@@ -1,0 +1,289 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Dentix" [ref=e4] [cursor=pointer]:
+        - /url: ../index.html
+        - img [ref=e5]
+        - text: Dentix
+      - generic [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: ../index.html
+        - link "Services" [ref=e10] [cursor=pointer]:
+          - /url: ../services.html
+        - link "Our Clinic" [ref=e11] [cursor=pointer]:
+          - /url: ../our-clinic.html
+        - link "Dentists" [ref=e12] [cursor=pointer]:
+          - /url: ../dentists.html
+      - link "Book Online" [ref=e14] [cursor=pointer]:
+        - /url: ../contacts.html
+        - text: Book Online
+        - img [ref=e15]
+  - generic [ref=e19]:
+    - img "Dental prosthetics" [ref=e21]
+    - generic [ref=e22]:
+      - heading "Dental prosthetics" [level=1] [ref=e23]
+      - paragraph [ref=e24]: Crowns, bridges, full and partial dentures, overdentures, and implant-supported prosthetics.
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - img [ref=e28]
+          - generic [ref=e31]:
+            - generic [ref=e32]: 1–3 visits
+            - generic [ref=e33]: Treatment time
+        - generic [ref=e34]:
+          - img [ref=e36]
+          - generic [ref=e38]:
+            - generic [ref=e39]: $1,750 – $6,500
+            - generic [ref=e40]: Price range
+        - generic [ref=e41]:
+          - img [ref=e43]
+          - generic [ref=e45]:
+            - generic [ref=e46]: Same day to 1 week
+            - generic [ref=e47]: Recovery time
+        - generic [ref=e48]:
+          - img [ref=e50]
+          - generic [ref=e52]:
+            - generic [ref=e53]: Most major plans accepted
+            - generic [ref=e54]: Insurance
+      - link "Book Online" [ref=e55] [cursor=pointer]:
+        - /url: ../contacts.html
+        - text: Book Online
+        - img [ref=e56]
+  - generic [ref=e60]:
+    - generic [ref=e61]:
+      - tab "Benefits" [selected] [ref=e62] [cursor=pointer]
+      - tab "Ideal Candidate" [ref=e63] [cursor=pointer]
+      - tab "Process Overview" [ref=e64] [cursor=pointer]
+      - tab "Pricing" [ref=e65] [cursor=pointer]
+    - generic [ref=e67]:
+      - heading "Rebuild your smile—one tooth or a whole arch" [level=2] [ref=e68]
+      - paragraph [ref=e69]: Missing teeth affect how you look, eat, speak, and feel. Even a single gap shifts your bite, while multiple missing teeth can alter your facial profile entirely. Custom dental prosthetics restore more than function—they give you back the confidence to smile, laugh, and enjoy food without hesitation. From a single porcelain crown to a full-arch implant-supported bridge, every piece is digitally designed and precision-milled for a fit that feels natural from day one.
+      - paragraph [ref=e70]:
+        - strong [ref=e71]: Why today's dental prosthetics stand out
+      - list [ref=e72]:
+        - listitem [ref=e73]:
+          - strong [ref=e74]: Tailored solutions
+          - text: —whether you need a crown, implant-supported bridge, partial, or full denture, every prosthesis is custom-designed to your arch, bite, and esthetic preferences.
+        - listitem [ref=e75]:
+          - strong [ref=e76]: CAD/CAM-milled zirconia or layered porcelain
+          - text: deliver lifelike translucency and exceptional strength—far beyond what pressed ceramics offered a decade ago.
+        - listitem [ref=e77]:
+          - strong [ref=e78]: Restores facial support
+          - text: by replacing missing tooth structure and root form, countering the sunken look that often follows tooth loss.
+        - listitem [ref=e79]:
+          - strong [ref=e80]: Adhesive-free, screw-retained options
+          - text: provide rock-steady stability without pastes or adhesives—ideal for implant overdentures and full bridges.
+        - listitem [ref=e81]:
+          - strong [ref=e82]: Immediate-load choices
+          - text: give you same-day fixed teeth in selected cases, so you never spend a day without a complete smile.
+        - listitem [ref=e83]:
+          - strong [ref=e84]: Biocompatible, metal-free ceramics
+          - text: are perfect for patients with metal sensitivities, offering full-strength function without nickel or base alloys.
+        - listitem [ref=e85]:
+          - strong [ref=e86]: Long service life
+          - text: —10 to 20+ years with proper home care and routine check-ups, outlasting older acrylic and metal-frame designs.
+        - listitem [ref=e87]:
+          - strong [ref=e88]: Easy maintenance
+          - text: thanks to glazed, plaque-resistant surfaces and precision margins that resist staining and marginal leakage.
+      - paragraph [ref=e89]: Whether it's a single cracked molar or a full-arch solution, today's prosthetics blend art and engineering to rebuild your smile for the long haul.
+  - generic [ref=e91]:
+    - generic [ref=e92]:
+      - text: Common Questions
+      - heading "Frequently Asked Questions" [level=2] [ref=e93]
+    - generic [ref=e94]:
+      - group [ref=e95]:
+        - 'generic "Crown vs onlay vs filling: how do you decide?" [ref=e96] [cursor=pointer]':
+          - generic [ref=e97]: "Crown vs onlay vs filling: how do you decide?"
+          - img [ref=e99]
+      - group [ref=e100]:
+        - 'generic "Which material fits my case: ceramic, zirconia, hybrid?" [ref=e101] [cursor=pointer]':
+          - generic [ref=e102]: "Which material fits my case: ceramic, zirconia, hybrid?"
+          - img [ref=e104]
+      - group [ref=e105]:
+        - generic "How do you make sure the bite feels right after?" [ref=e106] [cursor=pointer]:
+          - generic [ref=e107]: How do you make sure the bite feels right after?
+          - img [ref=e109]
+      - group [ref=e110]:
+        - generic "If I need a bridge, how do you protect the supporting teeth?" [ref=e111] [cursor=pointer]:
+          - generic [ref=e112]: If I need a bridge, how do you protect the supporting teeth?
+          - img [ref=e114]
+      - group [ref=e115]:
+        - generic "How many visits, and what can be done same-day?" [ref=e116] [cursor=pointer]:
+          - generic [ref=e117]: How many visits, and what can be done same-day?
+          - img [ref=e119]
+  - generic [ref=e121]:
+    - generic [ref=e122]:
+      - text: Testimonials
+      - heading "What Our Patients Say About Their Experience" [level=2] [ref=e123]
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - generic [ref=e127]: ★★★★★
+          - blockquote [ref=e128]: "\"They showed me the full cost upfront. No surprises, no awkward conversations later.\""
+          - generic [ref=e129]:
+            - img "Thomas" [ref=e130]
+            - generic [ref=e131]:
+              - generic [ref=e132]: Thomas
+              - generic [ref=e133]: Full arch restoration
+        - generic [ref=e134]:
+          - generic [ref=e135]: ★★★★★
+          - blockquote [ref=e136]: "\"The whole team clearly talks to each other. I never had to repeat my situation twice.\""
+          - generic [ref=e137]:
+            - img "Sandra" [ref=e138]
+            - generic [ref=e139]:
+              - generic [ref=e140]: Sandra
+              - generic [ref=e141]: Dental prosthetics
+        - generic [ref=e142]:
+          - generic [ref=e143]: ★★★★★
+          - blockquote [ref=e144]: "\"I put this off for six years. Wish I hadn't — the process was easier than I expected.\""
+          - generic [ref=e145]:
+            - img "David" [ref=e146]
+            - generic [ref=e147]:
+              - generic [ref=e148]: David
+              - generic [ref=e149]: Dental implants
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - generic [ref=e152]: ★★★★★
+          - blockquote [ref=e153]: "\"I came in expecting to be sold on the most expensive option. Instead, they walked me through three different approaches at different price points and let me decide.\""
+          - generic [ref=e154]:
+            - img "Margaret" [ref=e155]
+            - generic [ref=e156]:
+              - generic [ref=e157]: Margaret
+              - generic [ref=e158]: Dental implants
+        - generic [ref=e159]:
+          - generic [ref=e160]: ★★★★★
+          - blockquote [ref=e161]: "\"I was in and out for my whitening in under two hours. Teeth look incredible.\""
+          - generic [ref=e162]:
+            - img "James" [ref=e163]
+            - generic [ref=e164]:
+              - generic [ref=e165]: James
+              - generic [ref=e166]: Teeth whitening
+        - generic [ref=e167]:
+          - generic [ref=e168]: ★★★★★
+          - blockquote [ref=e169]: "\"They didn't push me toward the most expensive option. They explained everything and let me choose.\""
+          - generic [ref=e170]:
+            - img "Laura" [ref=e171]
+            - generic [ref=e172]:
+              - generic [ref=e173]: Laura
+              - generic [ref=e174]: Dental treatment
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e177]: ★★★★★
+          - blockquote [ref=e178]: "\"I'd been told by two other clinics that my bone wasn't enough. They found a way.\""
+          - generic [ref=e179]:
+            - img "Richard" [ref=e180]
+            - generic [ref=e181]:
+              - generic [ref=e182]: Richard
+              - generic [ref=e183]: Dental implants
+        - generic [ref=e184]:
+          - generic [ref=e185]: ★★★★★
+          - blockquote [ref=e186]: "\"Dr. Carter showed me a digital preview before we started. The final result matched exactly.\""
+          - generic [ref=e187]:
+            - img "Monica" [ref=e188]
+            - generic [ref=e189]:
+              - generic [ref=e190]: Monica
+              - generic [ref=e191]: Dental veneers
+        - generic [ref=e192]:
+          - generic [ref=e193]: ★★★★★
+          - blockquote [ref=e194]: "\"I'm usually anxious at the dentist, but they took their time and checked in constantly.\""
+          - generic [ref=e195]:
+            - img "Patricia" [ref=e196]
+            - generic [ref=e197]:
+              - generic [ref=e198]: Patricia
+              - generic [ref=e199]: Dental implants
+  - generic [ref=e202]:
+    - img "Dental care" [ref=e204]
+    - generic [ref=e205]:
+      - generic [ref=e206]:
+        - heading "We'll give you a reason to smile more. Sign up today." [level=2] [ref=e207]:
+          - text: We'll give you a reason to smile more.
+          - text: Sign up today.
+        - generic [ref=e208]:
+          - generic [ref=e209]:
+            - img "Reviewer" [ref=e210]
+            - img "Reviewer" [ref=e211]
+            - img "Reviewer" [ref=e212]
+            - img "Reviewer" [ref=e213]
+          - generic [ref=e214]:
+            - generic [ref=e215]:
+              - generic [ref=e216]: "4.8"
+              - generic [ref=e217]: ★★★★★
+            - generic [ref=e218]: 168 Reviews on Google
+      - link "Book Online" [ref=e220] [cursor=pointer]:
+        - /url: ../contacts.html
+        - text: Book Online
+        - img [ref=e221]
+  - contentinfo [ref=e223]:
+    - generic [ref=e224]:
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - img [ref=e229]
+            - generic [ref=e232]: Dentix
+          - generic [ref=e233]:
+            - link [ref=e234] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e235]
+            - link [ref=e237] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e238]
+            - link [ref=e241] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e242]
+        - generic [ref=e246]:
+          - heading "SERVICES" [level=4] [ref=e247]
+          - generic [ref=e248]:
+            - link "Dental Implants" [ref=e249] [cursor=pointer]:
+              - /url: dental-implants.html
+            - link "Dental Veneers" [ref=e250] [cursor=pointer]:
+              - /url: dental-veneers.html
+            - link "Dental Prosthetics" [ref=e251] [cursor=pointer]:
+              - /url: dental-prosthetics.html
+            - link "Dental Treatment" [ref=e252] [cursor=pointer]:
+              - /url: dental-treatment.html
+            - link "Teeth Whitening" [ref=e253] [cursor=pointer]:
+              - /url: teeth-whitening.html
+            - link "Dental Hygiene" [ref=e254] [cursor=pointer]:
+              - /url: dental-hygiene.html
+        - generic [ref=e255]:
+          - heading "QUICK LINKS" [level=4] [ref=e256]
+          - generic [ref=e257]:
+            - link "Home" [ref=e258] [cursor=pointer]:
+              - /url: ../index.html
+            - link "Services" [ref=e259] [cursor=pointer]:
+              - /url: ../services.html
+            - link "Our Clinic" [ref=e260] [cursor=pointer]:
+              - /url: ../our-clinic.html
+            - link "Dentists" [ref=e261] [cursor=pointer]:
+              - /url: ../dentists.html
+            - link "Dental News" [ref=e262] [cursor=pointer]:
+              - /url: "#"
+            - link "Contact Us" [ref=e263] [cursor=pointer]:
+              - /url: ../contacts.html
+            - link "Privacy Policy" [ref=e264] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e265]:
+          - heading "CONTACT INFO" [level=4] [ref=e266]
+          - generic [ref=e267]:
+            - generic [ref=e268]:
+              - img [ref=e270]
+              - link "hello@dentix.com" [ref=e273] [cursor=pointer]:
+                - /url: mailto:hello@dentix.com
+            - generic [ref=e274]:
+              - img [ref=e276]
+              - link "+37129514734" [ref=e278] [cursor=pointer]:
+                - /url: tel:+137129514734
+            - generic [ref=e279]:
+              - img [ref=e281]
+              - link "1234 Ocean Ave, Suite 200, Santa Monica, CA 90401" [ref=e284] [cursor=pointer]:
+                - /url: "#"
+                - text: 1234 Ocean Ave, Suite 200,
+                - text: Santa Monica, CA 90401
+            - generic [ref=e285]:
+              - img [ref=e287]
+              - paragraph [ref=e290]: Mon. to Fri. - 9:00 to 18:00
+      - generic [ref=e291]:
+        - generic [ref=e292]: © 2026 Dentix. All rights reserved.
+        - generic [ref=e293]:
+          - text: "Designed by:"
+          - link "ponderdigital.com" [ref=e294] [cursor=pointer]:
+            - /url: https://www.ponderdigital.com/

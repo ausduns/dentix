@@ -1,0 +1,196 @@
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Dentix" [ref=e4] [cursor=pointer]:
+        - /url: ../index.html
+        - img [ref=e5]
+        - text: Dentix
+      - generic [ref=e8]:
+        - link "Home" [ref=e9] [cursor=pointer]:
+          - /url: ../index.html
+        - link "Services" [ref=e10] [cursor=pointer]:
+          - /url: ../services.html
+        - link "Our Clinic" [ref=e11] [cursor=pointer]:
+          - /url: ../our-clinic.html
+        - link "Dentists" [ref=e12] [cursor=pointer]:
+          - /url: ../dentists.html
+      - link "Book Online" [ref=e14] [cursor=pointer]:
+        - /url: ../contacts.html
+        - text: Book Online
+        - img [ref=e15]
+  - generic [ref=e20]:
+    - img "Dental hygienist performing a professional cleaning" [ref=e22]
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - heading "Dental hygiene" [level=1] [ref=e25]
+        - paragraph [ref=e26]: Professional cleanings, plaque and tartar removal, gum health checks, and preventive care plans.
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - img [ref=e30]
+          - generic [ref=e33]:
+            - generic [ref=e34]: Treatment time
+            - generic [ref=e35]: 1 visit (45–60 min)
+        - generic [ref=e36]:
+          - img [ref=e38]
+          - generic [ref=e40]:
+            - generic [ref=e41]: Price range
+            - generic [ref=e42]: $90 – $150
+        - generic [ref=e43]:
+          - img [ref=e45]
+          - generic [ref=e47]:
+            - generic [ref=e48]: Recovery time
+            - generic [ref=e49]: None (mild soreness <24h)
+        - generic [ref=e50]:
+          - img [ref=e52]
+          - generic [ref=e54]:
+            - generic [ref=e55]: Insurance
+            - generic [ref=e56]: Most major plans accepted
+      - link "Book Online" [ref=e57] [cursor=pointer]:
+        - /url: ../contacts.html
+        - text: Book Online
+        - img [ref=e58]
+  - generic [ref=e63]:
+    - tablist [ref=e65]:
+      - listitem [ref=e66]:
+        - tab "Benefits" [ref=e67] [cursor=pointer]
+      - listitem [ref=e68]:
+        - tab "Ideal Candidate" [ref=e69] [cursor=pointer]
+      - listitem [ref=e70]:
+        - tab "Process Overview" [ref=e71] [cursor=pointer]
+      - listitem [ref=e72]:
+        - tab "Pricing" [active] [selected] [ref=e73] [cursor=pointer]
+    - generic [ref=e183]:
+      - heading "Dental hygiene pricing" [level=2] [ref=e184]
+      - generic [ref=e185]:
+        - generic [ref=e186]:
+          - generic [ref=e187]: Routine prophylaxis (adult)
+          - generic [ref=e188]: $120
+        - generic [ref=e189]:
+          - generic [ref=e190]: Periodontal maintenance
+          - generic [ref=e191]: $150
+        - generic [ref=e192]:
+          - generic [ref=e193]: Child cleaning + fluoride
+          - generic [ref=e194]: $90
+        - generic [ref=e195]:
+          - generic [ref=e196]: Sealant (per tooth)
+          - generic [ref=e197]: $45
+        - generic [ref=e198]:
+          - generic [ref=e199]: Desensitizing treatment
+          - generic [ref=e200]: $40
+  - generic [ref=e81]:
+    - generic [ref=e82]:
+      - text: Common Questions
+      - heading "Frequently Asked Questions" [level=2] [ref=e83]
+    - generic [ref=e84]:
+      - group [ref=e85]:
+        - generic "How often should I get a cleaning?" [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]: How often should I get a cleaning?
+          - img [ref=e89]
+      - group [ref=e90]:
+        - generic "What happens during a hygiene visit?" [ref=e91] [cursor=pointer]:
+          - generic [ref=e92]: What happens during a hygiene visit?
+          - img [ref=e94]
+      - group [ref=e95]:
+        - generic "Does cleaning hurt?" [ref=e96] [cursor=pointer]:
+          - generic [ref=e97]: Does cleaning hurt?
+          - img [ref=e99]
+      - group [ref=e100]:
+        - generic "Do I need X-rays every time?" [ref=e101] [cursor=pointer]:
+          - generic [ref=e102]: Do I need X-rays every time?
+          - img [ref=e104]
+      - group [ref=e105]:
+        - generic "Can a cleaning whiten my teeth?" [ref=e106] [cursor=pointer]:
+          - generic [ref=e107]: Can a cleaning whiten my teeth?
+          - img [ref=e109]
+  - generic [ref=e111]:
+    - generic [ref=e112]:
+      - text: Testimonials
+      - heading "What our patients say" [level=2] [ref=e113]
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - generic [ref=e116]: ★★★★★
+        - paragraph [ref=e117]: “They showed me the full cost upfront. No surprises, no awkward conversations later.”
+        - generic [ref=e118]:
+          - generic [ref=e119]: Thomas
+          - generic [ref=e120]: Full arch restoration
+      - generic [ref=e121]:
+        - generic [ref=e122]: ★★★★★
+        - paragraph [ref=e123]: “The whole team clearly talks to each other. I never had to repeat my situation twice.”
+        - generic [ref=e124]:
+          - generic [ref=e125]: Sandra
+          - generic [ref=e126]: Dental prosthetics
+      - generic [ref=e127]:
+        - generic [ref=e128]: ★★★★★
+        - paragraph [ref=e129]: “I put this off for six years. Wish I hadn’t — the process was easier than I expected.”
+        - generic [ref=e130]:
+          - generic [ref=e131]: David
+          - generic [ref=e132]: Dental implants
+  - generic [ref=e135]:
+    - heading "We'll give you a reason to smile more. Sign up today." [level=2] [ref=e136]
+    - generic [ref=e137]:
+      - strong [ref=e138]: "4.8"
+      - generic [ref=e139]: ★★★★★
+      - generic [ref=e140]: 168 Reviews on Google
+    - link "Book Online" [ref=e141] [cursor=pointer]:
+      - /url: ../contacts.html
+      - text: Book Online
+      - img [ref=e142]
+  - contentinfo [ref=e144]:
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - img [ref=e149]
+            - text: Dentix
+          - generic [ref=e152]:
+            - link "Home" [ref=e153] [cursor=pointer]:
+              - /url: ../index.html
+            - link "Services" [ref=e154] [cursor=pointer]:
+              - /url: ../services.html
+            - link "Our Clinic" [ref=e155] [cursor=pointer]:
+              - /url: ../our-clinic.html
+            - link "Dentists" [ref=e156] [cursor=pointer]:
+              - /url: ../dentists.html
+            - link "Book Online" [ref=e157] [cursor=pointer]:
+              - /url: ../contacts.html
+        - generic [ref=e158]:
+          - heading "Services" [level=4] [ref=e159]
+          - link "Dental Implants" [ref=e160] [cursor=pointer]:
+            - /url: ../services/dental-implants.html
+          - link "Dental Veneers" [ref=e161] [cursor=pointer]:
+            - /url: ../services/dental-veneers.html
+          - link "Dental Prosthetics" [ref=e162] [cursor=pointer]:
+            - /url: ../services/dental-prosthetics.html
+          - link "Dental Treatment" [ref=e163] [cursor=pointer]:
+            - /url: ../services/dental-treatment.html
+          - link "Teeth Whitening" [ref=e164] [cursor=pointer]:
+            - /url: ../services/teeth-whitening.html
+          - link "Dental Hygiene" [ref=e165] [cursor=pointer]:
+            - /url: ../services/dental-hygiene.html
+        - generic [ref=e166]:
+          - heading "Quick Links" [level=4] [ref=e167]
+          - link "Home" [ref=e168] [cursor=pointer]:
+            - /url: ../index.html
+          - link "Services" [ref=e169] [cursor=pointer]:
+            - /url: ../services.html
+          - link "Our Clinic" [ref=e170] [cursor=pointer]:
+            - /url: ../our-clinic.html
+          - link "Dentists" [ref=e171] [cursor=pointer]:
+            - /url: ../dentists.html
+          - link "Contact Us" [ref=e172] [cursor=pointer]:
+            - /url: ../contacts.html
+        - generic [ref=e173]:
+          - heading "Contact Info" [level=4] [ref=e174]
+          - link "hello@dentix.com" [ref=e175] [cursor=pointer]:
+            - /url: mailto:hello@dentix.com
+          - link "(503) 370-8787" [ref=e176] [cursor=pointer]:
+            - /url: tel:+15033708787
+          - link "1234 Ocean Ave, Suite 200, Santa Monica, CA 90401" [ref=e177] [cursor=pointer]:
+            - /url: "#"
+          - paragraph [ref=e178]: Mon. to Fri. - 9:00 to 18:00
+      - generic [ref=e179]:
+        - generic [ref=e180]: © 2026 Dentix. All rights reserved.
+        - generic [ref=e181]:
+          - text: "Designed by:"
+          - link "ponderdigital.com" [ref=e182] [cursor=pointer]:
+            - /url: https://www.ponderdigital.com/

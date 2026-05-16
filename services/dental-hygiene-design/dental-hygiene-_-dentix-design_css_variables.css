@@ -1,0 +1,56 @@
+:root {
+  /* Colors */
+  --color-color-1: #000000;
+  --color-color-2: #0000ee;
+  --color-color-3: #4b5363;
+  --color-color-4: #ffffff;
+  --color-color-5: #5b7a12;
+  --color-color-6: #838996;
+  --color-color-7: #6b7280;
+  --color-color-8: #f9fafb;
+  --color-color-9: #f0f5e4;
+  --color-color-10: #e5e7eb;
+
+  /* Typography */
+  --font-type-1-family: sans-serif;
+  --font-type-1-size: 12px;
+  --font-type-1-weight: 400;
+  --font-type-1-line-height: normal;
+  --font-type-2-family: Manrope;
+  --font-type-2-size: 48px;
+  --font-type-2-weight: 600;
+  --font-type-2-line-height: 57.6px;
+  --font-type-2-letter-spacing: -1.92px;
+  --font-type-3-family: Manrope;
+  --font-type-3-size: 18px;
+  --font-type-3-weight: 400;
+  --font-type-3-line-height: 27px;
+  --font-type-4-family: Manrope;
+  --font-type-4-size: 14px;
+  --font-type-4-weight: 500;
+  --font-type-4-line-height: 16.8px;
+  --font-type-5-family: Inter;
+  --font-type-5-size: 18px;
+  --font-type-5-weight: 700;
+  --font-type-5-line-height: 27px;
+
+  /* Spacing */
+  --spacing-space-1: 12px;
+  --spacing-space-2: 10px;
+  --spacing-space-3: 24px;
+  --spacing-space-4: 16px;
+  --spacing-space-5: 20px;
+  --spacing-space-6: 8px;
+  --spacing-space-7: 4px;
+  --spacing-space-8: 48px;
+  --spacing-space-9: 22px;
+  --spacing-space-10: 26px;
+
+  /* Border Radius */
+  --radius-radius-1: 100px;
+  --radius-radius-2: 20px;
+  --radius-radius-3: 10px;
+  --radius-radius-4: 16px;
+  --radius-radius-5: 6px;
+
+}

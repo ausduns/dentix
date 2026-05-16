@@ -1,8 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Dental Prosthetics | Dentix</title><link rel="stylesheet" href="../css/styles.css"></head>
-<body>
-  <nav class="navbar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dental Prosthetics | Dentix</title>
+  <meta name="description" content="Crowns, bridges, full and partial dentures, overdentures, and implant-supported prosthetics.">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'c-1': '#000000',
+            'c-2': '#0000ee',
+            'c-3': '#4b5363',
+            'c-4': '#ffffff',
+            'c-5': '#5b7a12',
+            'c-6': '#838996',
+            'c-7': '#6b7280',
+            'c-8': '#f9fafb',
+            'c-9': '#f0f5e4',
+            'c-10': '#e5e7eb',
+          },
+          fontFamily: {
+            sans: ['Manrope', 'sans-serif'],
+            inter: ['Inter', 'sans-serif'],
+          },
+          spacing: {
+            's4': '4px',
+            's8': '8px',
+            's10': '10px',
+            's12': '12px',
+            's16': '16px',
+            's20': '20px',
+            's22': '22px',
+            's24': '24px',
+            's26': '26px',
+            's48': '48px',
+          },
+          borderRadius: {
+            'r6': '6px',
+            'r10': '10px',
+            'r16': '16px',
+            'r20': '20px',
+            'r100': '100px',
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="font-sans bg-[#f3f4f6] text-c-1">
+
+<!-- NAVBAR -->
+<nav class="navbar">
   <div class="nav-inner">
     <a href="../index.html" class="nav-logo">
       <svg viewBox="0 0 24 24" width="24" height="24" fill="none"><path d="M12 2C8 2 4 5 4 10c0 4 3 8 5 10 1 1 2 2 3 2s2-1 3-2c2-2 5-6 5-10 0-5-4-8-8-8z" fill="#4A5A2B"/><path d="M12 6c-1.5 0-3 1-3 3s1.5 4 2 5c.3.5.6 1 1 1s.7-.5 1-1c.5-1 2-3 2-5s-1.5-3-3-3z" fill="#fff"/></svg>
@@ -24,45 +76,538 @@
     </button>
   </div>
 </nav>
-  <section class="service-detail"><div class="container">
-    <div class="service-hero"><div>
-      <h1 class="serif" style="font-size:42px;margin-bottom:12px;">Dental Prosthetics</h1>
-      <p style="font-size:16px;color:var(--text-muted);line-height:1.7;margin-bottom:24px;">Crowns, bridges, full and partial dentures, overdentures, and implant-supported prosthetics.</p>
-      <div class="service-stats">
-        <div class="stat-card"><div class="label">Treatment time</div><div class="value">2–4 visits</div></div>
-        <div class="stat-card"><div class="label">Price range</div><div class="value">$900 - $4,000</div></div>
-        <div class="stat-card"><div class="label">Longevity</div><div class="value">15-25 years</div></div>
-        <div class="stat-card"><div class="label">Materials</div><div class="value">Zirconia, porcelain, composite</div></div>
+
+<!-- HERO SECTION -->
+<section class="w-full bg-[#f3f4f6] px-6 py-6">
+  <div class="w-full max-w-[1200px] mx-auto bg-white rounded-[20px] p-8 lg:p-12 shadow-[0_0_12px_rgba(0,0,0,0.04)]">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <!-- LEFT: Image -->
+      <div class="aspect-square rounded-[20px] overflow-hidden">
+        <img src="https://framerusercontent.com/images/VaUBAW4BkrnWT6qOq879Nw4mZx8.jpg?width=1146&height=1024"
+             alt="Dental prosthetics"
+             class="w-full h-full object-cover">
       </div>
-      <a href="../contacts.html" class="btn btn-accent">Book Online<svg width="14" height="14" viewBox="0 0 16 16" fill="none" style="margin-left:8px;vertical-align:middle;"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a>
-    </div><div style="border-radius:var(--radius-xl);overflow:hidden;"><img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&q=80" alt="Dental prosthetics" style="width:100%;height:100%;object-fit:cover;"></div></div>
-    <div class="content-section"><h2>What are dental prosthetics?</h2><p>Prosthetics replace missing or damaged teeth using custom-made crowns, bridges, and dentures. Every prosthetic is individually designed to match your natural teeth in color, shape, and function.</p></div>
-    <div class="content-section"><h2>Pricing</h2><div class="pricing-table">
-      <div class="pricing-row"><span class="item">Porcelain crown</span><span class="price">$1,100</span></div>
-      <div class="pricing-row"><span class="item">Zirconia crown</span><span class="price">$1,400</span></div>
-      <div class="pricing-row"><span class="item">3-unit bridge</span><span class="price">$3,200</span></div>
-      <div class="pricing-row"><span class="item">Full denture (per arch)</span><span class="price">$2,500</span></div>
-    </div></div>
-  </div></section>
-  <section class="cta-banner"><h2>We'll give you a reason to smile more.</h2><div class="cta-review"><strong>4.8</strong><span class="stars">★★★★★</span><span>168 Reviews</span></div><br><a href="../contacts.html" class="btn btn-white">Book Online<svg width="14" height="14" viewBox="0 0 16 16" fill="none" style="margin-left:8px;vertical-align:middle;"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></a></section>
-  <footer class="footer">
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <div class="footer-brand">
-          <svg viewBox="0 0 24 24" width="24" height="24" fill="none"><path d="M12 2C8 2 4 5 4 10c0 4 3 8 5 10 1 1 2 2 3 2s2-1 3-2c2-2 5-6 5-10 0-5-4-8-8-8z" fill="#4A5A2B"/><path d="M12 6c-1.5 0-3 1-3 3s1.5 4 2 5c.3.5.6 1 1 1s.7-.5 1-1c.5-1 2-3 2-5s-1.5-3-3-3z" fill="#fff"/></svg>
-          Dentix
+      <!-- RIGHT: Content -->
+      <div class="flex flex-col gap-6">
+        <!-- Title -->
+        <h1 class="font-sans text-[clamp(36px,5vw,56px)] font-semibold leading-[1.2] tracking-[-0.05em] text-c-1">Dental prosthetics</h1>
+        <!-- Description -->
+        <p class="font-sans text-[18px] font-normal leading-[1.5] text-c-7 max-w-[480px]">Crowns, bridges, full and partial dentures, overdentures, and implant-supported prosthetics.</p>
+        <!-- Stats Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <!-- Stat: Treatment time -->
+          <div class="flex flex-row items-center gap-4">
+            <div class="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-c-9">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5b7a12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+              </svg>
+            </div>
+            <div class="flex flex-col text-left gap-1">
+              <span class="font-sans text-[16px] font-medium leading-[1.2] text-c-1">1–3 visits</span>
+              <span class="font-sans text-[16px] font-normal leading-[1.5] text-c-3">Treatment time</span>
+            </div>
+          </div>
+          <!-- Stat: Price range -->
+          <div class="flex flex-row items-center gap-4">
+            <div class="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-c-9">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5b7a12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+              </svg>
+            </div>
+            <div class="flex flex-col text-left gap-1">
+              <span class="font-sans text-[16px] font-medium leading-[1.2] text-c-1">$1,750 – $6,500</span>
+              <span class="font-sans text-[16px] font-normal leading-[1.5] text-c-3">Price range</span>
+            </div>
+          </div>
+          <!-- Stat: Recovery time -->
+          <div class="flex flex-row items-center gap-4">
+            <div class="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-c-9">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5b7a12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+              </svg>
+            </div>
+            <div class="flex flex-col text-left gap-1">
+              <span class="font-sans text-[16px] font-medium leading-[1.2] text-c-1">Same day to 1 week</span>
+              <span class="font-sans text-[16px] font-normal leading-[1.5] text-c-3">Recovery time</span>
+            </div>
+          </div>
+          <!-- Stat: Insurance -->
+          <div class="flex flex-row items-center gap-4">
+            <div class="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-c-9">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5b7a12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <div class="flex flex-col text-left gap-1">
+              <span class="font-sans text-[16px] font-medium leading-[1.2] text-c-1">Most major plans accepted</span>
+              <span class="font-sans text-[16px] font-normal leading-[1.5] text-c-3">Insurance</span>
+            </div>
+          </div>
         </div>
-        <div class="footer-links-row">
-          <a href="../index.html">Home</a><a href="../services.html">Services</a><a href="../our-clinic.html">Our Clinic</a><a href="../dentists.html">Dentists</a><a href="../contacts.html">Book Online</a>
-        </div>
+        <!-- CTA Button -->
+        <a href="../contacts.html" class="btn btn-accent self-start mt-2">Book Online
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </a>
       </div>
-      <div class="footer-col"><h4>Services</h4><a href="../services/dental-implants.html">Dental Implants</a><a href="../services/dental-veneers.html">Dental Veneers</a><a href="../services/dental-prosthetics.html">Dental Prosthetics</a><a href="../services/dental-treatment.html">Dental Treatment</a><a href="../services/teeth-whitening.html">Teeth Whitening</a><a href="../services/dental-hygiene.html">Dental Hygiene</a></div>
-      <div class="footer-col"><h4>Quick Links</h4><a href="../index.html">Home</a><a href="../services.html">Services</a><a href="../our-clinic.html">Our Clinic</a><a href="../dentists.html">Dentists</a><a href="../contacts.html">Contact Us</a></div>
-      <div class="footer-col"><h4>Contact Info</h4><a href="mailto:hello@dentix.com">hello@dentix.com</a><a href="tel:+15033708787">(503) 370-8787</a><a href="#">1234 Ocean Ave, Suite 200, Santa Monica, CA 90401</a><p style="margin-top:8px;font-size:13px;color:var(--text-muted);">Mon. to Fri. - 9:00 to 18:00</p></div>
     </div>
-    <div class="footer-bottom"><span>© 2026 Dentix. All rights reserved.</span><span>Designed by: <a href="https://www.ponderdigital.com/" target="_blank" style="color:var(--olive);">ponderdigital.com</a></span></div>
+  </div>
+</section>
+
+<!-- SERVICE INFO (TABS) SECTION -->
+<section class="w-full bg-[#f3f4f6] px-6 py-6">
+  <div class="w-full max-w-[1200px] mx-auto bg-white rounded-[20px] p-8 lg:p-12 shadow-[0_0_12px_rgba(0,0,0,0.04)]">
+    <div class="grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-12 items-start w-full">
+
+      <!-- LEFT: Tab sidebar -->
+      <div class="flex flex-col gap-2 w-full">
+        <button type="button" role="tab" aria-selected="true" data-tab="benefits"
+                class="dh-tab w-full text-left px-2 py-2 text-[15px] whitespace-nowrap transition-colors text-c-5 font-semibold border-l-2 border-c-5">
+          Benefits
+        </button>
+        <button type="button" role="tab" aria-selected="false" data-tab="candidate"
+                class="dh-tab w-full text-left px-2 py-2 text-[15px] whitespace-nowrap transition-colors text-c-7 font-medium border-l-2 border-transparent">
+          Ideal Candidate
+        </button>
+        <button type="button" role="tab" aria-selected="false" data-tab="process"
+                class="dh-tab w-full text-left px-2 py-2 text-[15px] whitespace-nowrap transition-colors text-c-7 font-medium border-l-2 border-transparent">
+          Process Overview
+        </button>
+        <button type="button" role="tab" aria-selected="false" data-tab="pricing"
+                class="dh-tab w-full text-left px-2 py-2 text-[15px] whitespace-nowrap transition-colors text-c-7 font-medium border-l-2 border-transparent">
+          Pricing
+        </button>
+      </div>
+
+      <!-- RIGHT: Tab content -->
+      <div class="w-full max-w-4xl text-left">
+
+        <!-- PANEL: Benefits -->
+        <div class="dh-panel" data-panel="benefits">
+          <h2 class="text-[36px] lg:text-[40px] font-semibold leading-[1.15] tracking-[-0.03em] text-c-1 mb-6">Rebuild your smile&mdash;one tooth or a whole arch</h2>
+          <p class="text-[16px] leading-[1.65] text-c-7 mb-4">Missing teeth affect how you look, eat, speak, and feel. Even a single gap shifts your bite, while multiple missing teeth can alter your facial profile entirely. Custom dental prosthetics restore more than function&mdash;they give you back the confidence to smile, laugh, and enjoy food without hesitation. From a single porcelain crown to a full-arch implant-supported bridge, every piece is digitally designed and precision-milled for a fit that feels natural from day one.</p>
+          <p class="text-[16px] leading-[1.65] text-c-7 mb-4"><strong>Why today's dental prosthetics stand out</strong></p>
+          <ul class="list-disc pl-5 space-y-2 my-4 text-[16px] leading-[1.65] text-c-7">
+            <li><strong>Tailored solutions</strong>&mdash;whether you need a crown, implant-supported bridge, partial, or full denture, every prosthesis is custom-designed to your arch, bite, and esthetic preferences.</li>
+            <li><strong>CAD/CAM-milled zirconia or layered porcelain</strong> deliver lifelike translucency and exceptional strength&mdash;far beyond what pressed ceramics offered a decade ago.</li>
+            <li><strong>Restores facial support</strong> by replacing missing tooth structure and root form, countering the sunken look that often follows tooth loss.</li>
+            <li><strong>Adhesive-free, screw-retained options</strong> provide rock-steady stability without pastes or adhesives&mdash;ideal for implant overdentures and full bridges.</li>
+            <li><strong>Immediate-load choices</strong> give you same-day fixed teeth in selected cases, so you never spend a day without a complete smile.</li>
+            <li><strong>Biocompatible, metal-free ceramics</strong> are perfect for patients with metal sensitivities, offering full-strength function without nickel or base alloys.</li>
+            <li><strong>Long service life</strong>&mdash;10 to 20+ years with proper home care and routine check-ups, outlasting older acrylic and metal-frame designs.</li>
+            <li><strong>Easy maintenance</strong> thanks to glazed, plaque-resistant surfaces and precision margins that resist staining and marginal leakage.</li>
+          </ul>
+          <p class="text-[16px] leading-[1.65] text-c-7">Whether it's a single cracked molar or a full-arch solution, today's prosthetics blend art and engineering to rebuild your smile for the long haul.</p>
+        </div>
+
+        <!-- PANEL: Ideal Candidate -->
+        <div class="dh-panel hidden" data-panel="candidate">
+          <h2 class="text-[36px] lg:text-[40px] font-semibold leading-[1.15] tracking-[-0.03em] text-c-1 mb-6">Is a dental prosthetic right for you?</h2>
+          <p class="text-[16px] leading-[1.65] text-c-7 mb-4">Dental prosthetics are designed for anyone with missing or severely damaged teeth who wants a reliable, natural-looking replacement&mdash;with or without implant surgery. If tooth loss is affecting your ability to chew comfortably, speak clearly, or smile with confidence, a custom prosthetic can restore function and esthetics, often in fewer visits and at a lower cost than full implant reconstruction.</p>
+          <p class="text-[16px] leading-[1.65] text-c-7 mb-4">You're likely a good candidate if you:</p>
+          <ul class="list-disc pl-5 space-y-2 my-4 text-[16px] leading-[1.65] text-c-7">
+            <li><strong>Are missing one or multiple teeth</strong> and have noticed shifting, bite changes, or difficulty chewing certain foods.</li>
+            <li><strong>Prefer a non-surgical or quick-turnaround option</strong>&mdash;crowns and bridges are typically completed in 1&ndash;3 visits without extensive healing time.</li>
+            <li><strong>Have adequate tooth structure or bone support</strong> for a fixed restoration, or are comfortable with a removable partial or full denture.</li>
+            <li><strong>Maintain good oral hygiene</strong> and commit to regular check-ups to maximize the lifespan of your prosthetic.</li>
+            <li><strong>Seek a cost-effective alternative to implants</strong> that still delivers high esthetics and reliable chewing function.</li>
+            <li><strong>Want to restore facial volume</strong> and support lips and cheeks for a more youthful profile.</li>
+            <li><strong>Have medical conditions or medications</strong> that make surgery risky, but still want to replace missing teeth with a well-fitting prosthetic.</li>
+          </ul>
+        </div>
+
+        <!-- PANEL: Process Overview -->
+        <div class="dh-panel hidden" data-panel="process">
+          <h2 class="text-[36px] lg:text-[40px] font-semibold leading-[1.15] tracking-[-0.03em] text-c-1 mb-8">How the process works</h2>
+          <div class="flex flex-col gap-8">
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-10 h-10 rounded-full bg-c-9 text-c-5 flex items-center justify-center font-semibold text-[15px]">1</div>
+              <div class="flex-1 min-w-0">
+                <h4 class="text-[18px] font-semibold mb-2 text-c-1">Comprehensive consultation &amp; 3-D scan</h4>
+                <p class="text-[16px] leading-[1.65] text-c-7">We begin with a full oral exam, digital photos, and a 3-D intra-oral scan (or CBCT for implant-supported cases). This captures your bite, existing teeth, and esthetic goals at up to 20 &micro;m accuracy&mdash;no goopy impressions needed.</p>
+              </div>
+            </div>
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-10 h-10 rounded-full bg-c-9 text-c-5 flex items-center justify-center font-semibold text-[15px]">2</div>
+              <div class="flex-1 min-w-0">
+                <h4 class="text-[18px] font-semibold mb-2 text-c-1">Tooth preparation &amp; precision impressions</h4>
+                <p class="text-[16px] leading-[1.65] text-c-7">For crowns and bridges, teeth are gently contoured under magnification to create space for the restoration. For dentures, we take functional bite registrations and border-molded impressions that capture muscle dynamics for a secure, comfortable fit.</p>
+              </div>
+            </div>
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-10 h-10 rounded-full bg-c-9 text-c-5 flex items-center justify-center font-semibold text-[15px]">3</div>
+              <div class="flex-1 min-w-0">
+                <h4 class="text-[18px] font-semibold mb-2 text-c-1">Digital design &amp; lab fabrication (7&ndash;14 days)</h4>
+                <p class="text-[16px] leading-[1.65] text-c-7">Your case is CAD/CAM designed, then milled from solid zirconia blocks or hand-layered in porcelain. Custom staining and glazing match your natural shade. For dentures, a wax try-in lets you preview the fit and esthetics before final processing.</p>
+              </div>
+            </div>
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-10 h-10 rounded-full bg-c-9 text-c-5 flex items-center justify-center font-semibold text-[15px]">4</div>
+              <div class="flex-1 min-w-0">
+                <h4 class="text-[18px] font-semibold mb-2 text-c-1">Try-in, fit check &amp; shade verification</h4>
+                <p class="text-[16px] leading-[1.65] text-c-7">We place the prosthesis in your mouth before final cementation. Bite contacts, phonetics, lip support, and shade are verified under both natural and operatory light. Minor adjustments are made chairside to ensure absolute comfort.</p>
+              </div>
+            </div>
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-10 h-10 rounded-full bg-c-9 text-c-5 flex items-center justify-center font-semibold text-[15px]">5</div>
+              <div class="flex-1 min-w-0">
+                <h4 class="text-[18px] font-semibold mb-2 text-c-1">Final placement &amp; after-care for fixed restorations</h4>
+                <p class="text-[16px] leading-[1.65] text-c-7">Crowns and bridges are cemented or screw-retained using torque-controlled drivers. Final X-rays confirm complete seating and margin seal. You leave with detailed care instructions and a follow-up schedule.</p>
+              </div>
+            </div>
+            <div class="flex gap-6">
+              <div class="flex-shrink-0 w-10 h-10 rounded-full bg-c-9 text-c-5 flex items-center justify-center font-semibold text-[15px]">6</div>
+              <div class="flex-1 min-w-0">
+                <h4 class="text-[18px] font-semibold mb-2 text-c-1">Removable prostheses delivery &amp; home-care kit</h4>
+                <p class="text-[16px] leading-[1.65] text-c-7">Full and partial dentures are delivered with a thorough pressure-point check to eliminate sore spots. You receive a home-care kit with cleaning solutions, a storage case, and a maintenance schedule&mdash;plus a 48-hour follow-up call to fine-tune anything that needs adjusting.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PANEL: Pricing -->
+        <div class="dh-panel hidden" data-panel="pricing">
+          <h2 class="text-[36px] lg:text-[40px] font-semibold leading-[1.15] tracking-[-0.03em] text-c-1 mb-8">Dental prosthetics pricing</h2>
+          <div class="flex flex-col">
+            <div class="flex justify-between items-center py-4 border-b border-c-10">
+              <span class="text-[16px] text-c-1">Comprehensive exam + digital scan</span>
+              <span class="text-[16px] font-semibold text-c-1">$150</span>
+            </div>
+            <div class="flex justify-between items-center py-4 border-b border-c-10">
+              <span class="text-[16px] text-c-1">Single porcelain crown</span>
+              <span class="text-[16px] font-semibold text-c-1">$750</span>
+            </div>
+            <div class="flex justify-between items-center py-4 border-b border-c-10">
+              <span class="text-[16px] text-c-1">3-unit bridge (two crowns + pontic)</span>
+              <span class="text-[16px] font-semibold text-c-1">$2,100</span>
+            </div>
+            <div class="flex justify-between items-center py-4 border-b border-c-10">
+              <span class="text-[16px] text-c-1">Complete upper or lower denture</span>
+              <span class="text-[16px] font-semibold text-c-1">$1,200</span>
+            </div>
+            <div class="flex justify-between items-center py-4 border-b border-c-10">
+              <span class="text-[16px] text-c-1">Implant-supported overdenture (locator attachments)</span>
+              <span class="text-[16px] font-semibold text-c-1">$6,500</span>
+            </div>
+            <div class="flex justify-between items-center py-4">
+              <span class="text-[16px] text-c-1">Relining / adjustment visit</span>
+              <span class="text-[16px] font-semibold text-c-1">$120</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ SECTION -->
+<section class="w-full bg-[#f3f4f6] px-6 py-6">
+  <div class="w-full max-w-[1200px] mx-auto bg-white rounded-[20px] p-8 lg:p-12 shadow-[0_0_12px_rgba(0,0,0,0.04)]">
+    <div class="text-center mb-10">
+      <span class="text-[13px] font-medium uppercase tracking-[0.08em] text-c-7">Common Questions</span>
+      <h2 class="text-[40px] lg:text-[48px] font-semibold leading-[1.15] tracking-[-0.04em] text-c-1 mt-3">Frequently Asked Questions</h2>
+    </div>
+
+    <div class="max-w-[800px] mx-auto">
+      <details class="group border-b border-c-10 py-5">
+        <summary class="flex justify-between items-center cursor-pointer list-none">
+          <span class="text-[18px] font-semibold text-c-1">Crown vs onlay vs filling: how do you decide?</span>
+          <span class="flex-shrink-0 w-8 h-8 rounded-full border border-c-10 flex items-center justify-center transition-all group-open:rotate-45 group-open:bg-c-9 group-open:border-c-5 group-open:text-c-5 text-c-7">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </summary>
+        <p class="mt-4 text-[16px] leading-[1.65] text-c-7">The choice comes down to remaining healthy tooth structure. A filling works when more than half the tooth is intact. An onlay covers one or two cusps when the damage is moderate. A full crown is indicated when more than 50% of the tooth structure is compromised or the tooth has undergone root canal treatment, as it needs circumferential protection against fracture. We evaluate with magnification and digital imaging to recommend the most conservative option that will still last.</p>
+      </details>
+
+      <details class="group border-b border-c-10 py-5">
+        <summary class="flex justify-between items-center cursor-pointer list-none">
+          <span class="text-[18px] font-semibold text-c-1">Which material fits my case: ceramic, zirconia, hybrid?</span>
+          <span class="flex-shrink-0 w-8 h-8 rounded-full border border-c-10 flex items-center justify-center transition-all group-open:rotate-45 group-open:bg-c-9 group-open:border-c-5 group-open:text-c-5 text-c-7">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </summary>
+        <p class="mt-4 text-[16px] leading-[1.65] text-c-7">For front teeth, layered porcelain provides the best translucency and natural esthetics. For back teeth and bridges, solid zirconia offers the highest fracture resistance&mdash;ideal for patients who clench or grind. Hybrid ceramics combine the esthetics of porcelain with the strength of zirconia and work well in the premolar region. We match material to your bite forces, the span being restored, and how much tooth shows when you smile.</p>
+      </details>
+
+      <details class="group border-b border-c-10 py-5">
+        <summary class="flex justify-between items-center cursor-pointer list-none">
+          <span class="text-[18px] font-semibold text-c-1">How do you make sure the bite feels right after?</span>
+          <span class="flex-shrink-0 w-8 h-8 rounded-full border border-c-10 flex items-center justify-center transition-all group-open:rotate-45 group-open:bg-c-9 group-open:border-c-5 group-open:text-c-5 text-c-7">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </summary>
+        <p class="mt-4 text-[16px] leading-[1.65] text-c-7">We use articulating paper and digital occlusal analysis to map every contact point. Before you leave, you'll bite, chew, and slide in every direction while we watch for high spots. For complex full-mouth cases, we may schedule a longer try-in appointment where you wear the prosthesis temporarily and give feedback over a few days before final cementation. Minor bite adjustments are always included at no extra charge during the first month.</p>
+      </details>
+
+      <details class="group border-b border-c-10 py-5">
+        <summary class="flex justify-between items-center cursor-pointer list-none">
+          <span class="text-[18px] font-semibold text-c-1">If I need a bridge, how do you protect the supporting teeth?</span>
+          <span class="flex-shrink-0 w-8 h-8 rounded-full border border-c-10 flex items-center justify-center transition-all group-open:rotate-45 group-open:bg-c-9 group-open:border-c-5 group-open:text-c-5 text-c-7">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </summary>
+        <p class="mt-4 text-[16px] leading-[1.65] text-c-7">Supporting teeth (abutments) are prepared as conservatively as possible under magnification. We remove the absolute minimum of enamel needed to seat the bridge while maintaining enough thickness for strength. The bridge is designed with proper connector dimensions and cleansable contours underneath the pontic. A water flosser or floss threader is demonstrated at delivery so you can clean under the bridge daily. With good hygiene, abutment teeth stay healthy for decades.</p>
+      </details>
+
+      <details class="group py-5">
+        <summary class="flex justify-between items-center cursor-pointer list-none">
+          <span class="text-[18px] font-semibold text-c-1">How many visits, and what can be done same-day?</span>
+          <span class="flex-shrink-0 w-8 h-8 rounded-full border border-c-10 flex items-center justify-center transition-all group-open:rotate-45 group-open:bg-c-9 group-open:border-c-5 group-open:text-c-5 text-c-7">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          </span>
+        </summary>
+        <p class="mt-4 text-[16px] leading-[1.65] text-c-7">A single crown or bridge typically takes 2&ndash;3 visits: consultation + scan, preparation + temporary, and final placement. Complete dentures usually require 4&ndash;5 visits including try-in. For same-day options, we can perform relines, minor adjustments, and repair of existing prostheses on the spot. Select cases qualify for same-day crowns milled in-office with CEREC technology&mdash;ask at your consultation whether your case is suitable for a single-visit crown.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL SECTION -->
+<section class="w-full bg-[#f3f4f6] px-6 py-6">
+  <div class="w-full max-w-[1200px] mx-auto bg-white rounded-[20px] p-8 lg:p-12 shadow-[0_0_12px_rgba(0,0,0,0.04)]">
+    <div class="text-center mb-10">
+      <span class="text-[13px] font-medium uppercase tracking-[0.08em] text-c-7">Testimonials</span>
+      <h2 class="text-[40px] lg:text-[48px] font-semibold leading-[1.15] tracking-[-0.04em] text-c-1 mt-3">What Our Patients Say About Their Experience</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Column 1 -->
+      <div class="flex flex-col gap-4">
+        <div class="bg-c-8 rounded-[20px] border border-[#f3f4f6] p-6 flex flex-col gap-3">
+          <div class="text-c-5 text-[14px] tracking-[1px]">★★★★★</div>
+          <blockquote class="text-[16px] leading-[1.5] text-c-3">"They showed me the full cost upfront. No surprises, no awkward conversations later."</blockquote>
+          <div class="flex items-center gap-3 pt-3 border-t border-[#f3f4f6]">
+            <img class="w-10 h-10 rounded-full object-cover" src="https://framerusercontent.com/images/gfKDEeDTH0gNXnMcLZHSxVUqFKI.png?width=160&height=160" alt="Thomas">
+            <div>
+              <div class="text-[14px] font-medium text-c-1">Thomas</div>
+              <div class="text-[12px] text-c-6">Full arch restoration</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-c-8 rounded-[20px] border border-[#f3f4f6] p-6 flex flex-col gap-3">
+          <div class="text-c-5 text-[14px] tracking-[1px]">★★★★★</div>
+          <blockquote class="text-[16px] leading-[1.5] text-c-3">"The whole team clearly talks to each other. I never had to repeat my situation twice."</blockquote>
+          <div class="flex items-center gap-3 pt-3 border-t border-[#f3f4f6]">
+            <img class="w-10 h-10 rounded-full object-cover" src="https://framerusercontent.com/images/4HytcC5SH5wppXFXnFHsYwunVHM.png?width=160&height=160" alt="Sandra">
+            <div>
+              <div class="text-[14px] font-medium text-c-1">Sandra</div>
+              <div class="text-[12px] text-c-6">Dental prosthetics</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-c-8 rounded-[20px] border border-[#f3f4f6] p-6 flex flex-col gap-3">
+          <div class="text-c-5 text-[14px] tracking-[1px]">★★★★★</div>
+          <blockquote class="text-[16px] leading-[1.5] text-c-3">"I put this off for six years. Wish I hadn't — the process was easier than I expected."</blockquote>
+          <div class="flex items-center gap-3 pt-3 border-t border-[#f3f4f6]">
+            <img class="w-10 h-10 rounded-full object-cover" src="https://framerusercontent.com/images/iYjcCRZeo67UEB1OUxgbZyT2ig.png?width=160&height=160" alt="David">
+            <div>
+              <div class="text-[14px] font-medium text-c-1">David</div>
+              <div class="text-[12px] text-c-6">Dental implants</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Column 2 -->
+      <div class="flex flex-col gap-4">
+        <div class="bg-c-8 rounded-[20px] border border-[#f3f4f6] p-6 flex flex-col gap-3">
+          <div class="text-c-5 text-[14px] tracking-[1px]">★★★★★</div>
+          <blockquote class="text-[16px] leading-[1.5] text-c-3">"I came in expecting to be sold on the most expensive option. Instead, they walked me through three different approaches at different price points and let me decide."</blockquote>
+          <div class="flex items-center gap-3 pt-3 border-t border-[#f3f4f6]">
+            <img class="w-10 h-10 rounded-full object-cover" src="https://framerusercontent.com/images/kLPW7o56Zt8gw0D96XHDliaFNM.png?width=160&height=160" alt="Margaret">
+            <div>
+              <div class="text-[14px] font-medium text-c-1">Margaret</div>
+              <div class="text-[12px] text-c-6">Dental implants</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-c-8 rounded-[20px] border border-[#f3f4f6] p-6 flex flex-col gap-3">
+          <div class="text-c-5 text-[14px] tracking-[1px]">★★★★★</div>
+          <blockquote class="text-[16px] leading-[1.5] text-c-3">"I was in and out for my whitening in under two hours. Teeth look incredible."</blockquote>
+          <div class="flex items-center gap-3 pt-3 border-t border-[#f3f4f6]">
+            <img class="w-10 h-10 rounded-full object-cover" src="https://framerusercontent.com/images/gfKDEeDTH0gNXnMcLZHSxVUqFKI.png?width=160&height=160" alt="James">
+            <div>
+              <div class="text-[14px] font-medium text-c-1">James</div>
+              <div class="text-[12px] text-c-6">Teeth whitening</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-c-8 rounded-[20px] border border-[#f3f4f6] p-6 flex flex-col gap-3">
+          <div class="text-c-5 text-[14px] tracking-[1px]">★★★★★</div>
+          <blockquote class="text-[16px] leading-[1.5] text-c-3">"They didn't push me toward the most expensive option. They explained everything and let me choose."</blockquote>
+          <div class="flex items-center gap-3 pt-3 border-t border-[#f3f4f6]">
+            <img class="w-10 h-10 rounded-full object-cover" src="https://framerusercontent.com/images/4HytcC5SH5wppXFXnFHsYwunVHM.png?width=160&height=160" alt="Laura">
+            <div>
+              <div class="text-[14px] font-medium text-c-1">Laura</div>
+              <div class="text-[12px] text-c-6">Dental treatment</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Column 3 -->
+      <div class="flex flex-col gap-4">
+        <div class="bg-c-8 rounded-[20px] border border-[#f3f4f6] p-6 flex flex-col gap-3">
+          <div class="text-c-5 text-[14px] tracking-[1px]">★★★★★</div>
+          <blockquote class="text-[16px] leading-[1.5] text-c-3">"I'd been told by two other clinics that my bone wasn't enough. They found a way."</blockquote>
+          <div class="flex items-center gap-3 pt-3 border-t border-[#f3f4f6]">
+            <img class="w-10 h-10 rounded-full object-cover" src="https://framerusercontent.com/images/iYjcCRZeo67UEB1OUxgbZyT2ig.png?width=160&height=160" alt="Richard">
+            <div>
+              <div class="text-[14px] font-medium text-c-1">Richard</div>
+              <div class="text-[12px] text-c-6">Dental implants</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-c-8 rounded-[20px] border border-[#f3f4f6] p-6 flex flex-col gap-3">
+          <div class="text-c-5 text-[14px] tracking-[1px]">★★★★★</div>
+          <blockquote class="text-[16px] leading-[1.5] text-c-3">"Dr. Carter showed me a digital preview before we started. The final result matched exactly."</blockquote>
+          <div class="flex items-center gap-3 pt-3 border-t border-[#f3f4f6]">
+            <img class="w-10 h-10 rounded-full object-cover" src="https://framerusercontent.com/images/kLPW7o56Zt8gw0D96XHDliaFNM.png?width=160&height=160" alt="Monica">
+            <div>
+              <div class="text-[14px] font-medium text-c-1">Monica</div>
+              <div class="text-[12px] text-c-6">Dental veneers</div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-c-8 rounded-[20px] border border-[#f3f4f6] p-6 flex flex-col gap-3">
+          <div class="text-c-5 text-[14px] tracking-[1px]">★★★★★</div>
+          <blockquote class="text-[16px] leading-[1.5] text-c-3">"I'm usually anxious at the dentist, but they took their time and checked in constantly."</blockquote>
+          <div class="flex items-center gap-3 pt-3 border-t border-[#f3f4f6]">
+            <img class="w-10 h-10 rounded-full object-cover" src="https://framerusercontent.com/images/gfKDEeDTH0gNXnMcLZHSxVUqFKI.png?width=160&height=160" alt="Patricia">
+            <div>
+              <div class="text-[14px] font-medium text-c-1">Patricia</div>
+              <div class="text-[12px] text-c-6">Dental implants</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="w-full bg-[#f3f4f6] px-6 py-6">
+  <div class="w-full max-w-[1200px] mx-auto">
+    <div class="cta-section">
+      <div class="cta-image">
+        <img src="https://framerusercontent.com/images/SjQeRS3WsuLW2tISmEI0S1yeGTA.jpg?width=800&height=1067" alt="Dental care">
+      </div>
+      <div class="cta-content">
+        <div class="cta-left">
+          <h2>We'll give you a reason to smile more.<br>Sign up today.</h2>
+          <div class="cta-review">
+            <div class="avatars">
+              <img src="https://framerusercontent.com/images/gfKDEeDTH0gNXnMcLZHSxVUqFKI.png?width=160&height=160" alt="Reviewer">
+              <img src="https://framerusercontent.com/images/4HytcC5SH5wppXFXnFHsYwunVHM.png?width=160&height=160" alt="Reviewer">
+              <img src="https://framerusercontent.com/images/iYjcCRZeo67UEB1OUxgbZyT2ig.png?width=160&height=160" alt="Reviewer">
+              <img src="https://framerusercontent.com/images/kLPW7o56Zt8gw0D96XHDliaFNM.png?width=160&height=160" alt="Reviewer">
+            </div>
+            <div class="review-text">
+              <div class="rating-stars"><span class="rating">4.8</span><span class="stars">★★★★★</span></div>
+              <div class="sub">168 Reviews on Google</div>
+            </div>
+          </div>
+        </div>
+        <div class="cta-right">
+          <a href="../contacts.html" class="btn" style="background:#fff;color:var(--text);box-shadow:0 4px 12px rgba(0,0,0,0.1);">Book Online
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container" style="padding-bottom: 24px;">
+    <div class="section-card" style="padding: 64px;">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <div class="footer-brand">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none"><path d="M12 2C8 2 4 5 4 10c0 4 3 8 5 10 1 1 2 2 3 2s2-1 3-2c2-2 5-6 5-10 0-5-4-8-8-8z" fill="var(--accent)"/><path d="M12 6c-1.5 0-3 1-3 3s1.5 4 2 5c.3.5.6 1 1 1s.7-.5 1-1c.5-1 2-3 2-5s-1.5-3-3-3z" fill="#fff"/></svg>
+            <span style="font-size:24px;font-weight:700;letter-spacing:-0.04em;">Dentix</span>
+          </div>
+          <div class="footer-social">
+            <a href="#"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+            <a href="#"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+            <a href="#"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>SERVICES</h4>
+          <div class="footer-links">
+            <a href="dental-implants.html">Dental Implants</a>
+            <a href="dental-veneers.html">Dental Veneers</a>
+            <a href="dental-prosthetics.html">Dental Prosthetics</a>
+            <a href="dental-treatment.html">Dental Treatment</a>
+            <a href="teeth-whitening.html">Teeth Whitening</a>
+            <a href="dental-hygiene.html">Dental Hygiene</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>QUICK LINKS</h4>
+          <div class="footer-links">
+            <a href="../index.html">Home</a>
+            <a href="../services.html">Services</a>
+            <a href="../our-clinic.html">Our Clinic</a>
+            <a href="../dentists.html">Dentists</a>
+            <a href="#">Dental News</a>
+            <a href="../contacts.html">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>CONTACT INFO</h4>
+          <div class="footer-contact">
+            <div class="contact-item">
+              <div class="icon-circle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path></svg></div>
+              <a href="mailto:hello@dentix.com">hello@dentix.com</a>
+            </div>
+            <div class="contact-item">
+              <div class="icon-circle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg></div>
+              <a href="tel:+137129514734">+37129514734</a>
+            </div>
+            <div class="contact-item">
+              <div class="icon-circle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></div>
+              <a href="#">1234 Ocean Ave, Suite 200,<br>Santa Monica, CA 90401</a>
+            </div>
+            <div class="contact-item">
+              <div class="icon-circle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg></div>
+              <p>Mon. to Fri. - 9:00 to 18:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Dentix. All rights reserved.</span>
+      <span>Designed by: <a href="https://www.ponderdigital.com/" target="_blank" style="color:var(--text);">ponderdigital.com</a></span>
+    </div>
   </div>
 </footer>
-  <script src="../js/main.js"></script>
-</body></html>
+
+<!-- TAB SWITCHER -->
+<script>
+  (function() {
+    const tabs = document.querySelectorAll('.dh-tab');
+    const panels = document.querySelectorAll('.dh-panel');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const target = tab.dataset.tab;
+        tabs.forEach(t => {
+          const active = t === tab;
+          t.setAttribute('aria-selected', active);
+          t.classList.toggle('text-c-5', active);
+          t.classList.toggle('font-semibold', active);
+          t.classList.toggle('border-c-5', active);
+          t.classList.toggle('text-c-7', !active);
+          t.classList.toggle('font-medium', !active);
+          t.classList.toggle('border-transparent', !active);
+        });
+        panels.forEach(p => p.classList.toggle('hidden', p.dataset.panel !== target));
+      });
+    });
+  })();
+</script>
+<script src="../js/main.js"></script>
+</body>
+</html>
