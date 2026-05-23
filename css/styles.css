@@ -1830,3 +1830,128 @@ ul{list-style:none}
     letter-spacing: -.03em !important;
   }
 }
+
+/* ===== UNIFIED STICKY NAV (from index.html specs) ===== */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 12px 12px 0 12px;
+}
+.nav-inner {
+  max-width: 1700px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 8px 8px 8px 32px;
+  box-shadow: 0px 0px 12px rgba(0,0,0,0.04);
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-decoration: none;
+}
+.nav-logo svg {
+  width: 24px;
+  height: 24px;
+}
+.nav-links {
+  display: flex;
+  gap: 32px;
+  margin-left: auto;
+  margin-right: 32px;
+}
+.nav-links a {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.nav-links a:hover {
+  color: #5B7A12;
+}
+.nav-cta .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  border-radius: 100px;
+  background: #5B7A12;
+  color: #ffffff;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.15), inset 0px 1px 1px 1px rgba(255,255,255,0.25), inset 0px -1px 1px 1px rgba(0,0,0,0.25);
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.nav-cta .btn:hover {
+  background: #49630b;
+}
+.mobile-toggle {
+  display: none;
+  background: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  color: #000000;
+}
+/* Fixed overlay – matches original homepage behavior, high z-index to stay on top */
+#navLinks.show {
+  display: flex !important;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  flex-direction: column;
+  padding: 24px;
+  gap: 16px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0px 0px 12px rgba(0,0,0,0.04);
+  z-index: 9999;
+}
+@media (max-width: 809px) {
+  .nav-links {
+    display: none;
+  }
+  .mobile-toggle {
+    display: block;
+    margin-left: auto;
+    margin-right: 16px;
+  }
+  .nav-inner {
+    padding-left: 24px;
+    padding-right: 8px;
+  }
+  .nav-cta {
+    display: none;
+  }
+}
+/* ===== END UNIFIED NAV ===== */
+
+/* Mobile CTA inside dropdown */
+.mobile-only-cta {
+  display: none !important;
+}
+@media (max-width: 809px) {
+  .nav-cta {
+    display: none !important; /* hide top button */
+  }
+  .mobile-only-cta {
+    display: inline-flex !important;
+    width: 100%;
+    justify-content: center;
+    margin-top: 16px;
+  }
+}

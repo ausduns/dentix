@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Implants | Dentix</title>
+    <meta name="description"
+        content="Single tooth implants, full-arch restoration, All-on-4, immediate-load implants, and implant-supported bridges.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'c-1': '#000000',
+                        'c-3': '#4b5363',
+                        'c-4': '#ffffff',
+                        'c-5': '#5b7a12', /* Exact Framer Olive Green */
+                        'c-6': '#838996',
+                        'c-7': '#6b7280',
+                        'c-8': '#f9fafb',
+                        'c-9': '#f0f5e4',
+                        'c-10': '#e5e7eb',
+                        'dentix-bg': '#f3f4f6',
+                    },
+                    fontFamily: {
+                        sans: ['Manrope', 'sans-serif'],
+                    },
+                    maxWidth: {
+                        'dentix': '1700px',
+                    },
+                    boxShadow: {
+                        'card': '0px 2px 12px rgba(0,0,0,0.03)',
+                        'btn': '0px 1px 2px 0px rgba(0,0,0,0.15), inset 0px 1px 1px 1px rgba(255,255,255,0.25), inset 0px -1px 1px 1px rgba(0,0,0,0.25)',
+                    }
+                },
+            },
+        };
+    </script>
+
+    <style>
+        body {
+            background-color: #f3f4f6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .btn-glow {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-glow::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: white;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .btn-glow:hover::after {
+            opacity: 0.08;
+        }
+
+        .btn-glow>* {
+            position: relative;
+            z-index: 10;
+        }
+
+        .hide-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        .hide-scroll {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+
+<body class="font-sans text-c-1 m-0 p-0">
+
+    <nav class="navbar">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="none"><path d="M12 2C8 2 4 5 4 10c0 4 3 8 5 10 1 1 2 2 3 2s2-1 3-2c2-2 5-6 5-10 0-5-4-8-8-8z" fill="#4A5A2B"/><path d="M12 6c-1.5 0-3 1-3 3s1.5 4 2 5c.3.5.6 1 1 1s.7-.5 1-1c.5-1 2-3 2-5s-1.5-3-3-3z" fill="#fff"/></svg>
+      Dentix
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="../index.html">Home</a>
+      <a href="../services.html">Services</a>
+      <a href="../our-clinic.html">Our Clinic</a>
+      <a href="../dentists.html">Dentists</a>
+      <a href="../contacts.html" class="btn btn-accent mobile-only-cta">Book Online
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </a>
+    
+    </div>
+    <div class="nav-cta">
+      <a href="../contacts.html" class="btn btn-accent">Book Online
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </a>
+    </div>
+    <button class="mobile-toggle" aria-label="Menu">
+      <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</nav>
+
+    <main class="px-3 pb-3 flex flex-col gap-3">
+
+        <section class="max-w-[1700px] mx-auto w-full flex flex-col lg:flex-row gap-3">
+
+            <div
+                class="w-full lg:w-1/2 p-5 bg-white/0 rounded-[20px] overflow-hidden min-h-[300px] lg:min-h-[400px] relative">
+                <img src="https://framerusercontent.com/images/TTCHVM2UpKZJdZRK0xt2onDOMeg.jpg?width=1024&height=1024"
+                    alt="Dental Implants" class="absolute inset-0 w-full h-full object-cover rounded-[20px]">
+            </div>
+
+            <div
+                class="w-full lg:w-1/2 bg-white rounded-[20px] p-8 lg:p-12 shadow-card flex flex-col justify-between gap-10">
+                <div class="flex flex-col gap-10">
+
+                    <div class="flex flex-col gap-3">
+                        <h1 class="text-[40px] lg:text-[56px] font-semibold leading-[1.1] tracking-[-0.04em] text-c-1">
+                            Dental implants</h1>
+                        <p class="text-[16px] lg:text-[18px] font-normal leading-[1.5] text-c-7 max-w-[560px]">Single
+                            tooth implants, full-arch restoration, All-on-4, immediate-load implants, and
+                            implant-supported bridges.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-6 lg:gap-y-10 gap-x-8">
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-c-9 text-c-5">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-col gap-1 mt-0.5">
+                                <span class="text-[16px] font-semibold text-c-1 leading-[1.2]">Treatment time</span>
+                                <span class="text-[15px] text-c-7 leading-[1.5]">2–3 visits</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-c-9 text-c-5">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="1" x2="12" y2="23" />
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-col gap-1 mt-0.5">
+                                <span class="text-[16px] font-semibold text-c-1 leading-[1.2]">Price range</span>
+                                <span class="text-[15px] text-c-7 leading-[1.5]">$ 1,550 - $ 2,500</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-c-9 text-c-5">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-col gap-1 mt-0.5">
+                                <span class="text-[16px] font-semibold text-c-1 leading-[1.2]">Recovery time</span>
+                                <span class="text-[15px] text-c-7 leading-[1.5]">Approx. 1 week</span>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-c-9 text-c-5">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-col gap-1 mt-0.5">
+                                <span class="text-[16px] font-semibold text-c-1 leading-[1.2]">Insurance</span>
+                                <span class="text-[15px] text-c-7 leading-[1.5]">Most major plans accepted</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="/contacts.html"
+                    class="inline-flex items-center gap-2 bg-c-5 text-white px-6 py-4 rounded-full font-semibold shadow-btn btn-glow w-fit text-[16px] leading-none mt-6 lg:mt-0">
+                    <span>Book Online</span>
+                    <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+
+        </section>
+
+        <section class="max-w-[1700px] mx-auto w-full bg-white rounded-[20px] p-8 lg:px-12 lg:py-24 shadow-card">
+
+            <div class="max-w-[1100px] mx-auto flex flex-col lg:flex-row gap-10 lg:gap-[80px]">
+
+                <div
+                    class="w-full lg:w-[180px] lg:sticky lg:top-[100px] flex flex-row lg:flex-col overflow-x-auto hide-scroll self-start border-b lg:border-b-0 border-gray-100 pb-2 lg:pb-0">
+                    <button type="button" data-tab="benefits"
+                        class="dh-tab flex items-center gap-2 px-0 py-3 lg:py-3.5 text-[14px] font-bold text-c-5 whitespace-nowrap focus:outline-none transition-colors mr-6 lg:mr-0 border-b-2 lg:border-b-0 lg:border-l-2 border-c-5 pl-0 lg:pl-4">
+                        Benefits
+                    </button>
+                    <button type="button" data-tab="candidate"
+                        class="dh-tab flex items-center gap-2 px-0 py-3 lg:py-3.5 text-[14px] font-medium text-c-7 whitespace-nowrap focus:outline-none transition-colors hover:text-c-1 mr-6 lg:mr-0 border-b-2 lg:border-b-0 lg:border-l-2 border-transparent pl-0 lg:pl-4">
+                        Ideal Candidate
+                    </button>
+                    <button type="button" data-tab="process"
+                        class="dh-tab flex items-center gap-2 px-0 py-3 lg:py-3.5 text-[14px] font-medium text-c-7 whitespace-nowrap focus:outline-none transition-colors hover:text-c-1 mr-6 lg:mr-0 border-b-2 lg:border-b-0 lg:border-l-2 border-transparent pl-0 lg:pl-4">
+                        Process Overview
+                    </button>
+                    <button type="button" data-tab="pricing"
+                        class="dh-tab flex items-center gap-2 px-0 py-3 lg:py-3.5 text-[14px] font-medium text-c-7 whitespace-nowrap focus:outline-none transition-colors hover:text-c-1 mr-6 lg:mr-0 border-b-2 lg:border-b-0 lg:border-l-2 border-transparent pl-0 lg:pl-4">
+                        Pricing
+                    </button>
+                </div>
+
+                <div class="flex-1 text-left">
+
+                    <div class="dh-panel flex flex-col gap-6" data-panel="benefits">
+                        <div
+                            class="inline-flex items-center gap-2 px-3 py-1 bg-c-8 border border-gray-100 rounded-full w-fit mb-2">
+                            <div class="w-1.5 h-1.5 rounded-full bg-[#8ea74e]"></div>
+                            <span class="text-[12px] font-medium text-c-7 uppercase tracking-wider">Benefits</span>
+                        </div>
+                        <h2 class="text-[36px] lg:text-[44px] font-semibold leading-[1.1] tracking-[-0.04em] text-c-1">
+                            Why dental implants are the gold standard in tooth replacement</h2>
+                        <div class="text-[16px] lg:text-[18px] text-c-3 leading-[1.6] mt-2 flex flex-col gap-4">
+                            <p>Dental implants are the closest thing to natural teeth. Designed to last for decades,
+                                they offer unmatched stability, comfort, and aesthetics. An implant replaces both the
+                                root and the visible part of the tooth, helping preserve your jawbone.</p>
+                            <p>What makes dental implants different:</p>
+                            <ul class="pl-0 space-y-3 mt-2">
+                                <li class="flex items-start gap-3"><span
+                                        class="shrink-0 w-1.5 h-1.5 rounded-full bg-c-5 mt-2.5"></span>Permanent
+                                    solution for missing or severely damaged teeth</li>
+                                <li class="flex items-start gap-3"><span
+                                        class="shrink-0 w-1.5 h-1.5 rounded-full bg-c-5 mt-2.5"></span>Feels and
+                                    functions like a natural tooth</li>
+                                <li class="flex items-start gap-3"><span
+                                        class="shrink-0 w-1.5 h-1.5 rounded-full bg-c-5 mt-2.5"></span>Helps maintain
+                                    jawbone health and facial structure</li>
+                                <li class="flex items-start gap-3"><span
+                                        class="shrink-0 w-1.5 h-1.5 rounded-full bg-c-5 mt-2.5"></span>No adhesives or
+                                    dietary restrictions</li>
+                                <li class="flex items-start gap-3"><span
+                                        class="shrink-0 w-1.5 h-1.5 rounded-full bg-c-5 mt-2.5"></span>High success rate
+                                    and long-term reliability</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="dh-panel hidden flex-col gap-6" data-panel="candidate">
+                        <div
+                            class="inline-flex items-center gap-2 px-3 py-1 bg-c-8 border border-gray-100 rounded-full w-fit mb-2">
+                            <div class="w-1.5 h-1.5 rounded-full bg-[#8ea74e]"></div>
+                            <span class="text-[12px] font-medium text-c-7 uppercase tracking-wider">Ideal
+                                Candidate</span>
+                        </div>
+                        <h2 class="text-[36px] lg:text-[44px] font-semibold leading-[1.1] tracking-[-0.04em] text-c-1">
+                            Is a dental implant right for you?</h2>
+                        <div class="text-[16px] lg:text-[18px] text-c-3 leading-[1.6] mt-2">
+                            <p>Dental implants are suitable for most adults who want a long-term, stable alternative to
+                                bridges or removable dentures. They're especially effective if you've lost a tooth due
+                                to injury or decay.</p>
+                        </div>
+                    </div>
+
+                    <div class="dh-panel hidden flex-col gap-6" data-panel="process">
+                        <div
+                            class="inline-flex items-center gap-2 px-3 py-1 bg-c-8 border border-gray-100 rounded-full w-fit mb-2">
+                            <div class="w-1.5 h-1.5 rounded-full bg-[#8ea74e]"></div>
+                            <span class="text-[12px] font-medium text-c-7 uppercase tracking-wider">Process
+                                Overview</span>
+                        </div>
+                        <h2 class="text-[36px] lg:text-[44px] font-semibold leading-[1.1] tracking-[-0.04em] text-c-1">
+                            How the process works</h2>
+                        <div class="text-[16px] lg:text-[18px] text-c-3 leading-[1.6] mt-2 flex flex-col gap-6">
+                            <div><strong class="text-c-1 font-semibold">1. Consultation & Digital Scan</strong><br>We
+                                begin with a thorough assessment and 3D scan to plan your treatment.</div>
+                            <div><strong class="text-c-1 font-semibold">2. Operation Procedure</strong><br>The titanium
+                                implant is placed under local anesthesia. Most patients experience little to no
+                                discomfort.</div>
+                            <div><strong class="text-c-1 font-semibold">3. Healing Period</strong><br>Over the next 2–3
+                                months, the implant bonds naturally with the jawbone.</div>
+                            <div><strong class="text-c-1 font-semibold">4. Crown Placement</strong><br>Once healed, we
+                                attach a custom-made crown for a perfect fit and finish.</div>
+                        </div>
+                    </div>
+
+                    <div class="dh-panel hidden flex-col gap-6" data-panel="pricing">
+                        <div
+                            class="inline-flex items-center gap-2 px-3 py-1 bg-c-8 border border-gray-100 rounded-full w-fit mb-2">
+                            <div class="w-1.5 h-1.5 rounded-full bg-[#8ea74e]"></div>
+                            <span class="text-[12px] font-medium text-c-7 uppercase tracking-wider">Pricing</span>
+                        </div>
+                        <h2 class="text-[36px] lg:text-[44px] font-semibold leading-[1.1] tracking-[-0.04em] text-c-1">
+                            Dental implant pricing</h2>
+                        <div class="flex flex-col w-full mt-4">
+                            <div
+                                class="flex justify-between items-center py-5 border-b border-dashed border-[#d1d5db] gap-4">
+                                <span class="text-[16px] text-c-1 leading-[1.5]">Comprehensive exam + 3-D CBCT
+                                    scan</span>
+                                <span class="text-[16px] font-bold text-c-3 shrink-0">$150</span>
+                            </div>
+                            <div
+                                class="flex justify-between items-center py-5 border-b border-dashed border-[#d1d5db] gap-4">
+                                <span class="text-[16px] text-c-1 leading-[1.5]">Single-tooth implant (posterior molar)
+                                    — surgery, abutment, crown</span>
+                                <span class="text-[16px] font-bold text-c-3 shrink-0">$3,200</span>
+                            </div>
+                            <div
+                                class="flex justify-between items-center py-5 border-b border-dashed border-[#d1d5db] gap-4">
+                                <span class="text-[16px] text-c-1 leading-[1.5]">Single-tooth implant (front “smile
+                                    zone”) — custom zirconia</span>
+                                <span class="text-[16px] font-bold text-c-3 shrink-0">$3,800</span>
+                            </div>
+                            <div
+                                class="flex justify-between items-center py-5 border-b border-dashed border-[#d1d5db] gap-4">
+                                <span class="text-[16px] text-c-1 leading-[1.5]">Minor bone graft at implant site</span>
+                                <span class="text-[16px] font-bold text-c-3 shrink-0">$350</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section
+            class="max-w-[1700px] mx-auto w-full bg-white rounded-[20px] p-8 lg:py-24 lg:px-12 shadow-card flex flex-col items-center">
+            <div class="inline-flex items-center gap-2 px-3 py-1 bg-c-8 border border-gray-100 rounded-full mb-4">
+                <div class="w-1.5 h-1.5 rounded-full bg-[#8ea74e]"></div>
+                <span class="text-[12px] font-medium text-c-7 uppercase tracking-wider">Common Questions</span>
+            </div>
+            <h2 class="text-[36px] lg:text-[48px] font-semibold tracking-[-0.04em] text-c-1 mb-12 text-center">
+                Frequently Asked <span class="text-c-5">Questions</span></h2>
+
+            <div class="w-full max-w-[800px] flex flex-col gap-4 text-left">
+                <details class="group bg-[#f9fafb] border border-[#f3f4f6] rounded-[16px] p-6" open>
+                    <summary class="flex justify-between items-center cursor-pointer list-none focus:outline-none">
+                        <span class="text-[18px] lg:text-[20px] font-semibold text-c-1 tracking-[-0.02em]">Am I a
+                            candidate, and what could disqualify me?</span>
+                        <span
+                            class="w-8 h-8 shrink-0 flex items-center justify-center transition-transform duration-300 group-open:rotate-45 text-[#8ea74e]">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round">
+                                <path d="M8 0v16M0 8h16" />
+                            </svg>
+                        </span>
+                    </summary>
+                    <p class="mt-4 text-[16px] text-c-3 leading-[1.6] pr-10">Most adults with healthy gums and
+                        sufficient bone density are candidates. Uncontrolled diabetes, heavy smoking, or untreated gum
+                        disease may temporarily disqualify you until resolved.</p>
+                </details>
+
+                <details class="group bg-[#f9fafb] border border-[#f3f4f6] rounded-[16px] p-6">
+                    <summary class="flex justify-between items-center cursor-pointer list-none focus:outline-none">
+                        <span class="text-[18px] lg:text-[20px] font-semibold text-c-1 tracking-[-0.02em]">Do I need
+                            grafting, and how does that change timeline and cost?</span>
+                        <span
+                            class="w-8 h-8 shrink-0 flex items-center justify-center transition-transform duration-300 group-open:rotate-45 text-[#8ea74e]">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round">
+                                <path d="M8 0v16M0 8h16" />
+                            </svg>
+                        </span>
+                    </summary>
+                    <p class="mt-4 text-[16px] text-c-3 leading-[1.6] pr-10">If bone volume is insufficient, grafting
+                        adds 3-6 months and $350-$1200.</p>
+                </details>
+
+                <details class="group bg-[#f9fafb] border border-[#f3f4f6] rounded-[16px] p-6">
+                    <summary class="flex justify-between items-center cursor-pointer list-none focus:outline-none">
+                        <span class="text-[18px] lg:text-[20px] font-semibold text-c-1 tracking-[-0.02em]">Who does
+                            what: placement vs crown, and how is it coordinated?</span>
+                        <span
+                            class="w-8 h-8 shrink-0 flex items-center justify-center transition-transform duration-300 group-open:rotate-45 text-[#8ea74e]">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round">
+                                <path d="M8 0v16M0 8h16" />
+                            </svg>
+                        </span>
+                    </summary>
+                    <p class="mt-4 text-[16px] text-c-3 leading-[1.6] pr-10">Our oral surgeon places the implant; our
+                        restorative dentist fabricates and attaches the crown – all in-house coordination.</p>
+                </details>
+            </div>
+        </section>
+
+        <section
+            class="max-w-[1700px] mx-auto w-full bg-white rounded-[20px] p-8 lg:py-24 lg:px-12 shadow-card flex flex-col items-center">
+            <div class="inline-flex items-center gap-2 px-3 py-1 bg-c-8 border border-gray-100 rounded-full mb-4">
+                <div class="w-1.5 h-1.5 rounded-full bg-[#8ea74e]"></div>
+                <span class="text-[12px] font-medium text-c-7 uppercase tracking-wider">Testimonials</span>
+            </div>
+            <h2
+                class="text-[36px] lg:text-[48px] font-semibold tracking-[-0.04em] text-c-1 mt-2 mb-12 text-center max-w-[600px] leading-[1.1]">
+                What Our Patients Say About Their Experience</h2>
+
+            <div class="max-w-[1200px] w-full grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+                <div class="bg-[#f9fafb] border border-[#f3f4f6] rounded-[20px] p-8 flex flex-col gap-6">
+                    <div class="flex gap-1 text-[#8ea74e]">
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                    </div>
+                    <p class="text-[16px] text-c-3 leading-[1.6]">"They showed me the full cost upfront. No surprises,
+                        no awkward conversations later."</p>
+                    <div class="flex items-center gap-3 pt-5 border-t border-dashed border-gray-200 mt-auto">
+                        <img class="w-10 h-10 rounded-full object-cover shadow-sm"
+                            src="https://framerusercontent.com/images/xfbakeetrlgbk2hkhe7fbhnfwi.jpg" alt="Thomas">
+                        <div class="flex flex-col">
+                            <span class="text-[14px] font-semibold text-c-1">Thomas</span>
+                            <span class="text-[13px] text-c-6">Full arch restoration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-[#f9fafb] border border-[#f3f4f6] rounded-[20px] p-8 flex flex-col gap-6">
+                    <div class="flex gap-1 text-[#8ea74e]">
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                    </div>
+                    <p class="text-[16px] text-c-3 leading-[1.6]">"The whole team clearly talks to each other. I never
+                        had to repeat my situation twice."</p>
+                    <div class="flex items-center gap-3 pt-5 border-t border-dashed border-gray-200 mt-auto">
+                        <img class="w-10 h-10 rounded-full object-cover shadow-sm"
+                            src="https://framerusercontent.com/images/gdqcc9m9vbdwb50mlcymyn7ua7e.jpg" alt="Sandra">
+                        <div class="flex flex-col">
+                            <span class="text-[14px] font-semibold text-c-1">Sandra</span>
+                            <span class="text-[13px] text-c-6">Dental prosthetics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-[#f9fafb] border border-[#f3f4f6] rounded-[20px] p-8 flex flex-col gap-6">
+                    <div class="flex gap-1 text-[#8ea74e]">
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                            <path
+                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                    </div>
+                    <p class="text-[16px] text-c-3 leading-[1.6]">"I put this off for six years. Wish I hadn't — the
+                        process was easier than I expected."</p>
+                    <div class="flex items-center gap-3 pt-5 border-t border-dashed border-gray-200 mt-auto">
+                        <img class="w-10 h-10 rounded-full object-cover shadow-sm"
+                            src="https://framerusercontent.com/images/smaxgydtd8s1aq9yusnx4uwyo5q.jpg" alt="David">
+                        <div class="flex flex-col">
+                            <span class="text-[14px] font-semibold text-c-1">David</span>
+                            <span class="text-[13px] text-c-6">Dental implants</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-[1700px] mx-auto w-full flex flex-col lg:flex-row gap-3">
+            <div class="w-full lg:w-[30%] rounded-[20px] overflow-hidden min-h-[300px] relative shadow-card">
+                <img src="https://framerusercontent.com/images/SjQeRS3WsuLW2tISmEI0S1yeGTA.jpg?width=800&height=1067"
+                    alt="Dental care" class="absolute inset-0 w-full h-full object-cover">
+            </div>
+            <div
+                class="w-full lg:w-[70%] bg-c-5 rounded-[20px] p-8 lg:px-12 lg:py-16 flex flex-col md:flex-row items-end justify-between gap-10 shadow-card">
+                <div class="flex flex-col gap-8 lg:gap-12 w-full max-w-[650px]">
+                    <h2 class="text-[36px] lg:text-[48px] font-semibold text-white leading-[1.2] tracking-[-0.04em]">
+                        We'll give you a reason to smile more. Sign up today.</h2>
+
+                    <div class="flex flex-wrap items-center gap-4">
+                        <div class="flex -space-x-3">
+                            <img class="w-12 h-12 rounded-full border-[3px] border-c-5 object-cover relative z-40"
+                                src="https://framerusercontent.com/images/gfKDEeDTH0gNXnMcLZHSxVUqFKI.png?width=160&height=160"
+                                alt="Reviewer">
+                            <img class="w-12 h-12 rounded-full border-[3px] border-c-5 object-cover relative z-30"
+                                src="https://framerusercontent.com/images/4HytcC5SH5wppXFXnFHsYwunVHM.png?width=160&height=160"
+                                alt="Reviewer">
+                            <img class="w-12 h-12 rounded-full border-[3px] border-c-5 object-cover relative z-20"
+                                src="https://framerusercontent.com/images/iYjcCRZeo67UEB1OUxgbZyT2ig.png?width=160&height=160"
+                                alt="Reviewer">
+                            <img class="w-12 h-12 rounded-full border-[3px] border-c-5 object-cover relative z-10"
+                                src="https://framerusercontent.com/images/kLPW7o56Zt8gw0D96XHDliaFNM.png?width=160&height=160"
+                                alt="Reviewer">
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <span class="font-semibold text-white text-[16px]">4.8</span>
+                            <div class="flex gap-[1px] text-white">
+                                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                            </div>
+                            <span class="text-[14px] text-white/50 ml-1">168 Reviews on Google</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="/contacts.html"
+                    class="shrink-0 bg-white text-c-1 px-5 py-4 rounded-full font-semibold btn-glow shadow-btn flex items-center gap-2 mt-8 md:mt-0 text-[16px] leading-none">
+                    <span>Book Online</span>
+                    <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round">
+                        <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <footer class="max-w-[1700px] mx-auto w-full bg-white rounded-dentix p-12 shadow-card mt-3">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[auto_auto_auto_auto] gap-10 lg:gap-[140px] mb-12">
+
+                <div class="flex flex-col gap-6 w-[140px]">
+                    <a href="/" class="flex items-center gap-2">
+                        <div class="w-7 h-7 bg-c-5 rounded-full flex items-center justify-center text-white font-bold text-[15px] leading-none">D</div>
+                        <span class="font-extrabold text-[22px] tracking-tight text-c-1">Dentix</span>
+                    </a>
+                    <div class="flex items-center gap-2 mt-2">
+                        <a href="#"
+                            class="w-12 h-12 rounded-full border border-c-10 flex items-center justify-center text-c-5 hover:bg-c-5 hover:text-white transition-colors"><svg
+                                width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg></a>
+                        <a href="#"
+                            class="w-12 h-12 rounded-full border border-c-10 flex items-center justify-center text-c-5 hover:bg-c-5 hover:text-white transition-colors"><svg
+                                width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            </svg></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-[14px] font-semibold text-c-7 uppercase mb-6 tracking-wide">SERVICES</h4>
+                    <ul class="flex flex-col gap-3 font-semibold text-[16px] text-c-1">
+                        <li><a href="/services/dental-implants.html"
+                                class="flex items-center gap-3 hover:text-c-5 transition-colors group"><span
+                                    class="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all text-c-5"><svg
+                                        width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 12L12 4M12 4H6M12 4v6"></path>
+                                    </svg></span>Dental Implants</a></li>
+                        <li><a href="/services/dental-veneers.html"
+                                class="flex items-center gap-3 hover:text-c-5 transition-colors group"><span
+                                    class="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all text-c-5"><svg
+                                        width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 12L12 4M12 4H6M12 4v6"></path>
+                                    </svg></span>Dental Veneers</a></li>
+                        <li><a href="/services/dental-prosthetics.html"
+                                class="flex items-center gap-3 hover:text-c-5 transition-colors group"><span
+                                    class="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all text-c-5"><svg
+                                        width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 12L12 4M12 4H6M12 4v6"></path>
+                                    </svg></span>Dental Prosthetics</a></li>
+                        <li><a href="/services/dental-treatment.html"
+                                class="flex items-center gap-3 hover:text-c-5 transition-colors group"><span
+                                    class="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all text-c-5"><svg
+                                        width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 12L12 4M12 4H6M12 4v6"></path>
+                                    </svg></span>Dental Treatment</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-[14px] font-semibold text-c-7 uppercase mb-6 tracking-wide">QUICK LINKS</h4>
+                    <ul class="flex flex-col gap-3 font-semibold text-[16px] text-c-1">
+                        <li><a href="/" class="flex items-center gap-3 hover:text-c-5 transition-colors group"><span
+                                    class="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all text-c-5"><svg
+                                        width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 12L12 4M12 4H6M12 4v6"></path>
+                                    </svg></span>Home</a></li>
+                        <li><a href="/services.html"
+                                class="flex items-center gap-3 hover:text-c-5 transition-colors group"><span
+                                    class="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all text-c-5"><svg
+                                        width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 12L12 4M12 4H6M12 4v6"></path>
+                                    </svg></span>Services</a></li>
+                        <li><a href="/our-clinic.html"
+                                class="flex items-center gap-3 hover:text-c-5 transition-colors group"><span
+                                    class="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all text-c-5"><svg
+                                        width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 12L12 4M12 4H6M12 4v6"></path>
+                                    </svg></span>Our Clinic</a></li>
+                        <li><a href="/dentists.html"
+                                class="flex items-center gap-3 hover:text-c-5 transition-colors group"><span
+                                    class="opacity-0 -ml-4 group-hover:opacity-100 group-hover:ml-0 transition-all text-c-5"><svg
+                                        width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 12L12 4M12 4H6M12 4v6"></path>
+                                    </svg></span>Dentists</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-[14px] font-semibold text-c-7 uppercase mb-6 tracking-wide">CONTACT INFO</h4>
+                    <ul class="flex flex-col gap-5 font-medium text-[16px] text-c-1">
+                        <li><a href="mailto:hello@dentix.com"
+                                class="flex items-center gap-3 hover:text-c-5 transition-colors">
+                                <div
+                                    class="w-8 h-8 rounded-full border border-[#d1d5db] text-c-5 flex items-center justify-center shrink-0">
+                                    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>hello@dentix.com
+                            </a></li>
+                        <li><a href="tel:+37129514734" class="flex items-center gap-3 hover:text-c-5 transition-colors">
+                                <div
+                                    class="w-8 h-8 rounded-full border border-[#d1d5db] text-c-5 flex items-center justify-center shrink-0">
+                                    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg>
+                                </div>+37129514734
+                            </a></li>
+                        <li>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-8 h-8 rounded-full border border-[#d1d5db] text-c-5 flex items-center justify-center shrink-0">
+                                    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round">
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    </svg>
+                                </div>1234 Ocean Ave, Suite 200
+                            </div>
+                        </li>
+                        <li>
+                            <div class="flex items-center gap-3">
+                                <div
+                                    class="w-8 h-8 rounded-full border border-[#d1d5db] text-c-5 flex items-center justify-center shrink-0">
+                                    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                </div>Mon. to Fri. - 9:00 to 18:00
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div
+                class="pt-8 border-t border-[#e5e7eb] flex flex-col md:flex-row justify-between text-[14px] font-normal text-c-3">
+                <span>© 2026 Dentix. All rights reserved.</span>
+                <span>Designed by: <a href="https://www.ponderdigital.com/"
+                        class="text-c-1 hover:text-c-5 transition-colors font-semibold">ponderdigital.com</a></span>
+            </div>
+        </footer>
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // TAB LOGIC (Replicating exact Framer feel)
+            const tabs = document.querySelectorAll('.dh-tab');
+            const panels = document.querySelectorAll('.dh-panel');
+            const activeSvg = '<svg class="w-4 h-4 text-c-5 opacity-100 transition-opacity" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg>';
+            const inactiveSvg = '<svg class="w-4 h-4 opacity-0 transition-opacity" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3 7h7l-5.5 4 2 7L12 16l-6.5 4 2-7L2 9h7z"/></svg>';
+
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const target = tab.dataset.tab;
+
+                    tabs.forEach(t => {
+                        const active = t === tab;
+                        t.classList.toggle('text-c-5', active);
+                        t.classList.toggle('font-bold', active);
+                        t.classList.toggle('border-c-5', active);
+                        t.classList.toggle('border-transparent', !active);
+                        t.classList.toggle('text-c-7', !active);
+                        t.classList.toggle('font-medium', !active);
+                        t.innerHTML = (active ? activeSvg : inactiveSvg) + t.innerText.trim();
+                    });
+
+                    panels.forEach(p => {
+                        if (p.dataset.panel === target) {
+                            p.classList.remove('hidden');
+                            p.classList.add('flex');
+                        } else {
+                            p.classList.add('hidden');
+                            p.classList.remove('flex');
+                        }
+                    });
+                });
+            });
+
+            // FAQ ACCORDION LOGIC
+            const details = document.querySelectorAll('details');
+            details.forEach(targetDetail => {
+                targetDetail.addEventListener('click', () => {
+                    details.forEach(detail => {
+                        if (detail !== targetDetail) {
+                            detail.removeAttribute('open');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+<script src="../js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Details Template | Dentix</title>
+    <meta name="description"
+        content="In-clinic bleaching, take-home whitening kits, shade guide matching, and maintenance touch-ups.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'c-1': '#000000',
+                        'c-2': '#0000ee',
+                        'c-3': '#4b5363',
+                        'c-4': '#ffffff',
+                        'c-5': '#5b7a12',
+                        'c-6': '#838996',
+                        'c-7': '#6b7280',
+                        'c-8': '#f9fafb',
+                        'c-9': '#f0f5e4',
+                        'c-10': '#e5e7eb',
+                    },
+                    fontFamily: {
+                        sans: ['Manrope', 'sans-serif'],
+                    },
+                    maxWidth: {
+                        'dentix': '1700px',      /* Outer card max-width */
+                        'dentix-read': '800px',  /* Inner text constraint for readability */
+                        'dentix-tabs': '1000px', /* Constraint for tab content */
+                    },
+                    borderRadius: {
+                        'dentix': '20px',
+                    },
+                    boxShadow: {
+                        'card': '0 4px 20px rgba(0,0,0,0.03)',
+                        'btn': '0px 1px 2px 0px rgba(0,0,0,0.15), inset 0px 1px 1px 1px rgba(255,255,255,0.25), inset 0px -1px 1px 1px rgba(0,0,0,0.25)',
+                    }
+                },
+            },
+        };
+    </script>
+
+    <style>
+        /* Button Hover Utility */
+        .btn-glow {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-glow::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: white;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .btn-glow:hover::after {
+            opacity: 0.08;
+        }
+
+        .btn-glow>* {
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Hide scrollbar for mobile tabs */
+        .hide-scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        .hide-scroll {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+
+<body class="font-sans bg-[#f3f4f6] text-c-1 antialiased m-0 p-0">
+
+    <nav class="navbar">
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-logo">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="none"><path d="M12 2C8 2 4 5 4 10c0 4 3 8 5 10 1 1 2 2 3 2s2-1 3-2c2-2 5-6 5-10 0-5-4-8-8-8z" fill="#4A5A2B"/><path d="M12 6c-1.5 0-3 1-3 3s1.5 4 2 5c.3.5.6 1 1 1s.7-.5 1-1c.5-1 2-3 2-5s-1.5-3-3-3z" fill="#fff"/></svg>
+      Dentix
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="../index.html">Home</a>
+      <a href="../services.html">Services</a>
+      <a href="../our-clinic.html">Our Clinic</a>
+      <a href="../dentists.html">Dentists</a>
+      <a href="../contacts.html" class="btn btn-accent mobile-only-cta">Book Online
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </a>
+    
+    </div>
+    <div class="nav-cta">
+      <a href="../contacts.html" class="btn btn-accent">Book Online
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </a>
+    </div>
+    <button class="mobile-toggle" aria-label="Menu">
+      <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</nav>
+
+    <main class="px-3 pb-3 flex flex-col gap-3">
+
+        <section class="max-w-dentix mx-auto w-full bg-white rounded-dentix p-6 lg:p-12 shadow-card">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-stretch">
+
+                <div class="rounded-dentix overflow-hidden min-h-[400px] lg:min-h-[500px] relative">
+                    <img src="https://framerusercontent.com/images/eBm1oDhvdnyHuLvmrenHNolAE20.jpg?width=1146&height=1024"
+                        alt="Teeth whitening" class="absolute inset-0 w-full h-full object-cover">
+                </div>
+
+                <div class="flex flex-col justify-center py-4 lg:py-8">
+                    <h1 class="text-5xl lg:text-6xl font-semibold leading-[1.1] tracking-tight text-c-1 mb-6">Teeth
+                        whitening</h1>
+                    <p class="text-lg text-c-7 mb-10 max-w-[480px]">In-clinic bleaching, take-home whitening kits, shade
+                        guide matching, and maintenance touch-ups.</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-8 gap-x-6 mb-10">
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-c-9 text-c-5">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="text-[16px] font-semibold text-c-1">1 visit (60–90 min)</span>
+                                <span class="text-[15px] text-c-7">Treatment time</span>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-c-9 text-c-5">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="12" y1="1" x2="12" y2="23" />
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="text-[16px] font-semibold text-c-1">$200 – $450</span>
+                                <span class="text-[15px] text-c-7">Price range</span>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-c-9 text-c-5">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="text-[16px] font-semibold text-c-1">24h of mild sensitivity</span>
+                                <span class="text-[15px] text-c-7">Recovery time</span>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div
+                                class="shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-c-9 text-c-5">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                </svg>
+                            </div>
+                            <div class="flex flex-col">
+                                <span class="text-[16px] font-semibold text-c-1">Most major plans</span>
+                                <span class="text-[15px] text-c-7">Insurance</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="/contacts.html"
+                        class="inline-flex items-center gap-2 bg-c-5 text-white px-8 py-4 rounded-full font-semibold shadow-btn btn-glow w-fit">
+                        <span>Book Online</span>
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round">
+                            <path d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-dentix mx-auto w-full bg-white rounded-dentix p-8 lg:p-20 shadow-card">
+            <div class="grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-12 lg:gap-24 items-start w-full">
+
+                <div
+                    class="flex flex-row lg:flex-col gap-2 overflow-x-auto border-b lg:border-b-0 pb-4 lg:pb-0 hide-scroll w-full">
+                    <button type="button" data-tab="benefits"
+                        class="dh-tab w-full text-left px-4 py-3 text-[15px] font-semibold text-c-5 border-b-2 lg:border-b-0 lg:border-l-2 border-c-5 whitespace-nowrap transition-colors focus:outline-none">Benefits</button>
+                    <button type="button" data-tab="candidate"
+                        class="dh-tab w-full text-left px-4 py-3 text-[15px] font-medium text-c-7 border-b-2 lg:border-b-0 lg:border-l-2 border-transparent hover:text-c-1 whitespace-nowrap transition-colors focus:outline-none">Ideal
+                        Candidate</button>
+                    <button type="button" data-tab="process"
+                        class="dh-tab w-full text-left px-4 py-3 text-[15px] font-medium text-c-7 border-b-2 lg:border-b-0 lg:border-l-2 border-transparent hover:text-c-1 whitespace-nowrap transition-colors focus:outline-none">Process
+                        Overview</button>
+                    <button type="button" data-tab="pricing"
+                        class="dh-tab w-full text-left px-4 py-3 text-[15px] font-medium text-c-7 border-b-2 lg:border-b-0 lg:border-l-2 border-transparent hover:text-c-1 whitespace-nowrap transition-colors focus:outline-none">Pricing</button>
+                </div>
+
+                <div class="w-full max-w-dentix-tabs text-left">
+
+                    <div class="dh-panel flex flex-col gap-6" data-panel="benefits">
+                        <h2 class="text-4xl lg:text-5xl font-semibold tracking-tight text-c-1 mb-2">Instant confidence
+                            boost for special events</h2>
+                        <p class="text-lg text-c-7 leading-relaxed">Teeth whitening is the fastest way to upgrade your
+                            appearance—whether it's for a wedding, photoshoot, presentation, or just because you're
+                            tired of hiding your smile. Our high-potency, pH-balanced gel with LED activation avoids the
+                            chalky, uneven look of drugstore strips.</p>
+
+                        <h3 class="font-semibold text-c-1 mt-4 text-lg">Why patients choose professional whitening</h3>
+                        <ul class="flex flex-col gap-4 mt-2">
+                            <li class="flex items-start gap-3">
+                                <span class="w-1.5 h-1.5 rounded-full bg-c-5 mt-2.5 shrink-0"></span>
+                                <span class="text-c-7 text-lg leading-relaxed"><strong
+                                        class="text-c-1">Dentist-supervised for maximum safety</strong>—gums and lips
+                                    are isolated with custom barriers, and shade is monitored throughout.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="w-1.5 h-1.5 rounded-full bg-c-5 mt-2.5 shrink-0"></span>
+                                <span class="text-c-7 text-lg leading-relaxed"><strong class="text-c-1">Even,
+                                        natural-looking results</strong>—proprietary light diffusion creates uniform
+                                    whitening edge-to-edge, never blotchy or striped.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="dh-panel hidden flex-col gap-6" data-panel="candidate">
+                        <h2 class="text-4xl lg:text-5xl font-semibold tracking-tight text-c-1 mb-2">Are you a good
+                            whitening candidate?</h2>
+                        <p class="text-lg text-c-7 leading-relaxed">Professional whitening works for most adults, but a
+                            few baseline conditions maximize your results and minimize sensitivity.</p>
+                    </div>
+
+                    <div class="dh-panel hidden flex-col gap-10" data-panel="process">
+                        <h2 class="text-4xl lg:text-5xl font-semibold tracking-tight text-c-1">Process overview</h2>
+                        <div class="flex flex-col gap-8">
+                            <div class="flex gap-6">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-c-9 text-c-5 flex items-center justify-center font-semibold text-lg shrink-0">
+                                    1</div>
+                                <div class="flex flex-col gap-2">
+                                    <h4 class="text-xl font-semibold text-c-1">Shade assessment & baseline photos</h4>
+                                    <p class="text-c-7 text-lg leading-relaxed">We use a calibrated shade guide and
+                                        high-resolution photos to document your starting point.</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-6">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-c-9 text-c-5 flex items-center justify-center font-semibold text-lg shrink-0">
+                                    2</div>
+                                <div class="flex flex-col gap-2">
+                                    <h4 class="text-xl font-semibold text-c-1">Comprehensive gum isolation</h4>
+                                    <p class="text-c-7 text-lg leading-relaxed">A light-cured resin dam is painted along
+                                        your gumline to seal and protect soft tissue.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dh-panel hidden flex-col gap-6" data-panel="pricing">
+                        <h2 class="text-4xl lg:text-5xl font-semibold tracking-tight text-c-1 mb-2">Teeth whitening
+                            pricing</h2>
+                        <div class="flex flex-col mt-4">
+                            <div class="flex justify-between items-center py-6 border-b border-c-10">
+                                <span class="text-lg text-c-1">In-office whitening session</span>
+                                <span class="text-lg font-semibold text-c-1">$450</span>
+                            </div>
+                            <div class="flex justify-between items-center py-6 border-b border-c-10">
+                                <span class="text-lg text-c-1">Take-home custom trays (with gel)</span>
+                                <span class="text-lg font-semibold text-c-1">$300</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-dentix mx-auto w-full bg-white rounded-dentix p-8 lg:p-20 shadow-card text-center">
+            <span class="text-[13px] font-semibold uppercase tracking-[0.08em] text-c-7">Common Questions</span>
+            <h2 class="text-4xl lg:text-[48px] font-semibold tracking-tight text-c-1 mt-4 mb-16">Frequently Asked <span
+                    class="text-c-5">Questions</span></h2>
+
+            <div class="max-w-dentix-read mx-auto text-left flex flex-col">
+                <details class="group border-b border-c-10 py-6" open>
+                    <summary class="flex justify-between items-center cursor-pointer list-none focus:outline-none">
+                        <span class="text-xl font-semibold text-c-1">How long does whitening last?</span>
+                        <span
+                            class="w-10 h-10 rounded-full border border-c-10 flex items-center justify-center transition-all group-open:bg-c-9 group-open:border-c-5 group-open:text-c-5 text-c-7">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" class="transition-transform duration-300 group-open:rotate-45">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </span>
+                    </summary>
+                    <p class="mt-6 text-lg text-c-7 leading-relaxed pr-12">Results typically last one to three years,
+                        depending on your diet and habits. Coffee, red wine, tea, and tobacco will gradually re-stain
+                        teeth over time. Using your custom take-home trays for a touch-up session every 4–6 months keeps
+                        your smile at its brightest.</p>
+                </details>
+
+                <details class="group border-b border-c-10 py-6">
+                    <summary class="flex justify-between items-center cursor-pointer list-none focus:outline-none">
+                        <span class="text-xl font-semibold text-c-1">Is whitening safe?</span>
+                        <span
+                            class="w-10 h-10 rounded-full border border-c-10 flex items-center justify-center transition-all group-open:bg-c-9 group-open:border-c-5 group-open:text-c-5 text-c-7">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" class="transition-transform duration-300 group-open:rotate-45">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </span>
+                    </summary>
+                    <p class="mt-6 text-lg text-c-7 leading-relaxed pr-12">Yes, when performed under professional
+                        supervision. The gel is pH-neutral and formulated to minimize enamel demineralization.</p>
+                </details>
+
+                <details class="group border-b border-c-10 py-6">
+                    <summary class="flex justify-between items-center cursor-pointer list-none focus:outline-none">
+                        <span class="text-xl font-semibold text-c-1">Will it cause sensitivity?</span>
+                        <span
+                            class="w-10 h-10 rounded-full border border-c-10 flex items-center justify-center transition-all group-open:bg-c-9 group-open:border-c-5 group-open:text-c-5 text-c-7">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" class="transition-transform duration-300 group-open:rotate-45">
+                                <line x1="12" y1="5" x2="12" y2="19" />
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                            </svg>
+                        </span>
+                    </summary>
+                    <p class="mt-6 text-lg text-c-7 leading-relaxed pr-12">Some patients experience mild, temporary
+                        sensitivity for 24–48 hours after treatment. We apply a fluoride and potassium-nitrate
+                        desensitizing rinse at the end of every session to seal pores and calm the nerves.</p>
+                </details>
+            </div>
+        </section>
+
+        <section class="max-w-dentix mx-auto w-full bg-white rounded-dentix p-8 lg:p-20 shadow-card text-center">
+            <span class="text-[13px] font-semibold uppercase tracking-[0.08em] text-c-7">Testimonials</span>
+            <h2 class="text-4xl lg:text-[48px] font-semibold tracking-tight text-c-1 mt-4 mb-16">What Our Patients Say
+                About<br>Their Experience</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+                <div class="flex flex-col gap-6">
+                    <div class="bg-c-8 rounded-[20px] p-8 flex flex-col gap-6 border border-gray-100">
+                        <div class="text-c-5 tracking-widest text-sm">★★★★★</div>
+                        <p class="text-lg text-c-3 leading-relaxed">"They showed me the full cost upfront. No surprises,
+                            no awkward conversations later."</p>
+                        <div class="flex items-center gap-4 pt-6 border-t border-gray-200 mt-auto">
+                            <img class="w-12 h-12 rounded-full object-cover"
+                                src="https://framerusercontent.com/images/gfKDEeDTH0gNXnMcLZHSxVUqFKI.png?width=160&height=160"
+                                alt="Thomas">
+                            <div>
+                                <div class="font-semibold text-c-1">Thomas</div>
+                                <div class="text-sm text-c-6">Full arch restoration</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-c-8 rounded-[20px] p-8 flex flex-col gap-6 border border-gray-100">
+                        <div class="text-c-5 tracking-widest text-sm">★★★★★</div>
+                        <p class="text-lg text-c-3 leading-relaxed">"The whole team clearly talks to each other. I never
+                            had to repeat my situation twice."</p>
+                        <div class="flex items-center gap-4 pt-6 border-t border-gray-200 mt-auto">
+                            <img class="w-12 h-12 rounded-full object-cover"
+                                src="https://framerusercontent.com/images/4HytcC5SH5wppXFXnFHsYwunVHM.png?width=160&height=160"
+                                alt="Sandra">
+                            <div>
+                                <div class="font-semibold text-c-1">Sandra</div>
+                                <div class="text-sm text-c-6">Dental prosthetics</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-6">
+                    <div class="bg-c-8 rounded-[20px] p-8 flex flex-col gap-6 border border-gray-100">
+                        <div class="text-c-5 tracking-widest text-sm">★★★★★</div>
+                        <p class="text-lg text-c-3 leading-relaxed">"I came in expecting to be sold on the most
+                            expensive option. Instead, they walked me through three different approaches at different
+                            price points and let me decide."</p>
+                        <div class="flex items-center gap-4 pt-6 border-t border-gray-200 mt-auto">
+                            <img class="w-12 h-12 rounded-full object-cover"
+                                src="https://framerusercontent.com/images/kLPW7o56Zt8gw0D96XHDliaFNM.png?width=160&height=160"
+                                alt="Margaret">
+                            <div>
+                                <div class="font-semibold text-c-1">Margaret</div>
+                                <div class="text-sm text-c-6">Dental implants</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-c-8 rounded-[20px] p-8 flex flex-col gap-6 border border-gray-100">
+                        <div class="text-c-5 tracking-widest text-sm">★★★★★</div>
+                        <p class="text-lg text-c-3 leading-relaxed">"I was in and out for my whitening in under two
+                            hours. Teeth look incredible."</p>
+                        <div class="flex items-center gap-4 pt-6 border-t border-gray-200 mt-auto">
+                            <img class="w-12 h-12 rounded-full object-cover"
+                                src="https://framerusercontent.com/images/gfKDEeDTH0gNXnMcLZHSxVUqFKI.png?width=160&height=160"
+                                alt="James">
+                            <div>
+                                <div class="font-semibold text-c-1">James</div>
+                                <div class="text-sm text-c-6">Teeth whitening</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-6">
+                    <div class="bg-c-8 rounded-[20px] p-8 flex flex-col gap-6 border border-gray-100">
+                        <div class="text-c-5 tracking-widest text-sm">★★★★★</div>
+                        <p class="text-lg text-c-3 leading-relaxed">"I'd been told by two other clinics that my bone
+                            wasn't enough. They found a way."</p>
+                        <div class="flex items-center gap-4 pt-6 border-t border-gray-200 mt-auto">
+                            <img class="w-12 h-12 rounded-full object-cover"
+                                src="https://framerusercontent.com/images/iYjcCRZeo67UEB1OUxgbZyT2ig.png?width=160&height=160"
+                                alt="Richard">
+                            <div>
+                                <div class="font-semibold text-c-1">Richard</div>
+                                <div class="text-sm text-c-6">Dental implants</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-c-8 rounded-[20px] p-8 flex flex-col gap-6 border border-gray-100">
+                        <div class="text-c-5 tracking-widest text-sm">★★★★★</div>
+                        <p class="text-lg text-c-3 leading-relaxed">"Dr. Carter showed me a digital preview before we
+                            started. The final result matched exactly."</p>
+                        <div class="flex items-center gap-4 pt-6 border-t border-gray-200 mt-auto">
+                            <img class="w-12 h-12 rounded-full object-cover"
+                                src="https://framerusercontent.com/images/kLPW7o56Zt8gw0D96XHDliaFNM.png?width=160&height=160"
+                                alt="Monica">
+                            <div>
+                                <div class="font-semibold text-c-1">Monica</div>
+                                <div class="text-sm text-c-6">Dental veneers</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-dentix mx-auto w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-[1fr_2.5fr] gap-3">
+                <div class="rounded-dentix overflow-hidden min-h-[300px] lg:min-h-[400px] relative shadow-card">
+                    <img src="https://framerusercontent.com/images/SjQeRS3WsuLW2tISmEI0S1yeGTA.jpg?width=800&height=1067"
+                        alt="Dental care" class="absolute inset-0 w-full h-full object-cover">
+                </div>
+                <div
+                    class="bg-c-5 rounded-dentix p-10 lg:p-16 flex flex-col md:flex-row items-end justify-between gap-10 shadow-card">
+                    <div class="flex flex-col gap-10 lg:gap-16 w-full">
+                        <h2
+                            class="text-4xl lg:text-[56px] font-semibold text-white leading-[1.1] tracking-tight max-w-xl">
+                            We'll give you a reason to smile more. Sign up today.</h2>
+
+                        <div class="flex flex-wrap items-center gap-6">
+                            <div class="flex -space-x-3">
+                                <img class="w-12 h-12 rounded-full border-2 border-c-5 object-cover relative z-40"
+                                    src="https://framerusercontent.com/images/gfKDEeDTH0gNXnMcLZHSxVUqFKI.png?width=160&height=160"
+                                    alt="Reviewer">
+                                <img class="w-12 h-12 rounded-full border-2 border-c-5 object-cover relative z-30"
+                                    src="https://framerusercontent.com/images/4HytcC5SH5wppXFXnFHsYwunVHM.png?width=160&height=160"
+                                    alt="Reviewer">
+                                <img class="w-12 h-12 rounded-full border-2 border-c-5 object-cover relative z-20"
+                                    src="https://framerusercontent.com/images/iYjcCRZeo67UEB1OUxgbZyT2ig.png?width=160&height=160"
+                                    alt="Reviewer">
+                                <img class="w-12 h-12 rounded-full border-2 border-c-5 object-cover relative z-10"
+                                    src="https://framerusercontent.com/images/kLPW7o56Zt8gw0D96XHDliaFNM.png?width=160&height=160"
+                                    alt="Reviewer">
+                            </div>
+                            <div class="flex flex-col text-white">
+                                <div class="flex items-center gap-2 font-semibold">4.8 <span
+                                        class="tracking-widest text-sm font-normal text-white/90">★★★★★</span></div>
+                                <div class="text-sm text-white/80">168 Reviews on Google</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="/contacts.html"
+                        class="shrink-0 bg-white text-c-1 px-8 py-4 rounded-full font-semibold shadow-btn btn-glow flex items-center gap-2 mt-8 md:mt-0">
+                        <span>Book Online</span>
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round">
+                            <path d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="max-w-dentix mx-auto w-full bg-white rounded-dentix p-10 lg:p-16 shadow-card">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+
+                <div class="flex flex-col gap-6">
+                    <a href="/" class="flex items-center gap-2">
+                        <div class="w-7 h-7 bg-c-5 rounded-full flex items-center justify-center text-white font-bold text-[15px] leading-none">D</div>
+                        <span class="font-extrabold text-[22px] tracking-tight text-c-1">Dentix</span>
+                    </a>
+                    <div class="flex items-center gap-3 mt-2">
+                        <a href="#"
+                            class="w-10 h-10 rounded-full border border-c-10 flex items-center justify-center text-c-5 hover:bg-c-5 hover:text-white transition-colors"><svg
+                                width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg></a>
+                        <a href="#"
+                            class="w-10 h-10 rounded-full border border-c-10 flex items-center justify-center text-c-5 hover:bg-c-5 hover:text-white transition-colors"><svg
+                                width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            </svg></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-[13px] font-semibold text-c-7 uppercase tracking-widest mb-6">Services</h4>
+                    <ul class="flex flex-col gap-4 font-medium text-c-1">
+                        <li><a href="/services/dental-implants.html" class="hover:text-c-5 transition-colors">Dental
+                                Implants</a></li>
+                        <li><a href="/services/dental-veneers.html" class="hover:text-c-5 transition-colors">Dental
+                                Veneers</a></li>
+                        <li><a href="/services/dental-prosthetics.html" class="hover:text-c-5 transition-colors">Dental
+                                Prosthetics</a></li>
+                        <li><a href="/services/dental-treatment.html" class="hover:text-c-5 transition-colors">Dental
+                                Treatment</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-[13px] font-semibold text-c-7 uppercase tracking-widest mb-6">Quick Links</h4>
+                    <ul class="flex flex-col gap-4 font-medium text-c-1">
+                        <li><a href="/" class="hover:text-c-5 transition-colors">Home</a></li>
+                        <li><a href="/services.html" class="hover:text-c-5 transition-colors">Services</a></li>
+                        <li><a href="/our-clinic.html" class="hover:text-c-5 transition-colors">Our Clinic</a></li>
+                        <li><a href="/dentists.html" class="hover:text-c-5 transition-colors">Dentists</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-[13px] font-semibold text-c-7 uppercase tracking-widest mb-6">Contact Info</h4>
+                    <ul class="flex flex-col gap-5 font-medium text-c-1">
+                        <li><a href="mailto:hello@dentix.com"
+                                class="flex items-center gap-3 hover:text-c-5 transition-colors">
+                                <div
+                                    class="w-6 h-6 rounded-full border border-c-5 text-c-5 flex items-center justify-center shrink-0">
+                                    <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg></div>hello@dentix.com
+                            </a></li>
+                        <li><a href="tel:+137129514734"
+                                class="flex items-center gap-3 hover:text-c-5 transition-colors">
+                                <div
+                                    class="w-6 h-6 rounded-full border border-c-5 text-c-5 flex items-center justify-center shrink-0">
+                                    <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg></div>+37129514734
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div
+                class="pt-8 border-t border-c-10 flex flex-col md:flex-row justify-between text-[13px] font-medium text-c-7">
+                <span>&copy; 2026 Dentix. All rights reserved.</span>
+                <span>Designed by: <a href="https://www.ponderdigital.com/"
+                        class="text-c-1 hover:text-c-5 transition-colors">ponderdigital.com</a></span>
+            </div>
+        </footer>
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // TABS LOGIC
+            const tabs = document.querySelectorAll('.dh-tab');
+            const panels = document.querySelectorAll('.dh-panel');
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const target = tab.dataset.tab;
+
+                    tabs.forEach(t => {
+                        const active = t === tab;
+                        t.classList.toggle('text-c-5', active);
+                        t.classList.toggle('font-semibold', active);
+                        t.classList.toggle('border-c-5', active);
+                        t.classList.toggle('text-c-7', !active);
+                        t.classList.toggle('font-medium', !active);
+                        t.classList.toggle('border-transparent', !active);
+                    });
+
+                    panels.forEach(p => {
+                        if (p.dataset.panel === target) {
+                            p.classList.remove('hidden');
+                            p.classList.add('flex');
+                        } else {
+                            p.classList.add('hidden');
+                            p.classList.remove('flex');
+                        }
+                    });
+                });
+            });
+
+            // FAQ ACCORDION LOGIC (Only one open at a time)
+            const details = document.querySelectorAll('details');
+            details.forEach(targetDetail => {
+                targetDetail.addEventListener('click', () => {
+                    details.forEach(detail => {
+                        if (detail !== targetDetail) {
+                            detail.removeAttribute('open');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+<script src="../js/main.js"></script>
+
+</body>
+
+</html>
